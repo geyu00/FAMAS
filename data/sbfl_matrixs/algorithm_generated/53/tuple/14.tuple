@@ -1,0 +1,5 @@
+{"agent": "Data_Extraction_Expert", "action": "execute", "state": "extract the High Energy Physics - Lattice articles listed in January 2020"}
+{"agent": "Data_Extraction_Expert", "action": "separate steps", "state": "install the arxiv package and then execute the extraction script"}
+{"agent": "Data_Extraction_Expert", "action": "write script", "state": "extract the list of High Energy Physics - Lattice articles from Arxiv for January 2020"}
+{"agent": "Verification_Expert", "action": "create script", "state": "save the extraction code in a Python script and execute it"}
+{"agent": "Verification_Expert", "action": "provide solution", "state": "install the arxiv package and extract the articles"}

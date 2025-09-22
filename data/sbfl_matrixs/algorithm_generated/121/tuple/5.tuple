@@ -1,0 +1,7 @@
+{"agent": "Debugging_Expert", "action": "analyze", "state": "error message and identify potential causes"}
+{"agent": "Debugging_Expert", "action": "request", "state": "original JSON data for further analysis"}
+{"agent": "JSON_Expert", "action": "validate", "state": "sample JSON data to check for decoding errors"}
+{"agent": "Logistics_Expert", "action": "conclude", "state": "wrap up the discussion and await further information"}
+{"agent": "Logistics_Expert", "action": "request", "state": "specific details regarding the original JSON input or code"}
+{"agent": "Logistics_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "summarize", "state": "verification of the sample JSON data and next steps"}

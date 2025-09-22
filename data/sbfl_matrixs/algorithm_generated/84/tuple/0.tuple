@@ -1,0 +1,4 @@
+{"agent": "ChessRules_Expert", "action": "install package", "state": "Install pytesseract package"}
+{"agent": "ChessRules_Expert", "action": "request", "state": "provide the FEN string or description of the chess position"}
+{"agent": "Chess_Expert", "action": "rerun script", "state": "Rerun the script to extract text from the chess image"}
+{"agent": "Chess_Expert", "action": "write script", "state": "Extract text from the chess image using pytesseract"}

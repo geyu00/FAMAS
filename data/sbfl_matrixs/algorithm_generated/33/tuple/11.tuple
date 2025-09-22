@@ -1,0 +1,5 @@
+{"agent": "DOI_Expert", "action": "fetch", "state": "book content using the provided DOI"}
+{"agent": "DOI_Expert", "action": "install", "state": "PyPDF2 library to enable PDF extraction"}
+{"agent": "DOI_Expert", "action": "plan", "state": "use PyPDF2 library to extract text from PDF"}
+{"agent": "InformationExtraction_Expert", "action": "adjust", "state": "access method to correctly retrieve the book's PDF or text content"}
+{"agent": "InformationExtraction_Expert", "action": "fetch", "state": "PDF file directly using the DOI link"}

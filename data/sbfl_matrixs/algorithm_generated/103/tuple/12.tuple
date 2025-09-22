@@ -1,0 +1,6 @@
+{"agent": "DataVerification_Expert", "action": "communicate", "state": "to=Eateries_Expert and Location-Based_Services_Expert"}
+{"agent": "DataVerification_Expert", "action": "refine approach", "state": "use Bing Search API to find eateries near Harkness Memorial State Park"}
+{"agent": "Eateries_Expert", "action": "propose", "state": "Look into New London, East Lyme, and Groton for eateries open late on Wednesdays"}
+{"agent": "Eateries_Expert", "action": "propose", "state": "manual verification of operating hours using known sources"}
+{"agent": "Eateries_Expert", "action": "provide list", "state": "common eateries in the area known to be open late"}
+{"agent": "Location-Based_Services_Expert", "action": "modify code", "state": "Update the search query to capture more information from the Bing API response"}

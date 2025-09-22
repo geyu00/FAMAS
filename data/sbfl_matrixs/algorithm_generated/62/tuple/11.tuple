@@ -1,0 +1,6 @@
+{"agent": "Literature_Expert", "action": "request", "state": "check the content for the exact wording of the quote"}
+{"agent": "Literature_Expert", "action": "request", "state": "manually check the retrieved text against the quoted text"}
+{"agent": "Literature_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Research_Expert", "action": "execute", "state": "retrieve the original article from Project MUSE using the provided DOI"}
+{"agent": "VerificationExpert", "action": "await", "state": "information about the content of the retrieved text"}
+{"agent": "VerificationExpert", "action": "request", "state": "check the retrieved text for the exact wording of the quote"}

@@ -1,0 +1,6 @@
+{"agent": "Filmography_Expert", "action": "summarize", "state": "highest-rated Isabelle Adjani feature film under 2 hours available on Vudu is The Story of Adele H. with IMDB rating 7.8"}
+{"agent": "Filmography_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Filmography_Expert", "action": "write script", "state": "get the filmography of Isabelle Adjani"}
+{"agent": "IMDB_Ratings_Expert", "action": "list films", "state": "manually list notable Isabelle Adjani films and their runtimes"}
+{"agent": "StreamingAvailability_Expert", "action": "check availability", "state": "verify availability of films on Vudu"}
+{"agent": "StreamingAvailability_Expert", "action": "inform", "state": "availability check for films on Vudu"}

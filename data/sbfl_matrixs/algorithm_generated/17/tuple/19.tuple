@@ -1,0 +1,5 @@
+{"agent": "MarineBiology_Expert", "action": "manually verify", "state": "manually check Wikipedia page for population data of Greenland in 2020"}
+{"agent": "MarineBiology_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "MarineBiology_Expert", "action": "write script", "state": "access Wikipedia page for Greenland and extract population data"}
+{"agent": "Statistics_Expert", "action": "revise codes", "state": "include verification step before accessing table data"}
+{"agent": "Verification_Expert", "action": "revise script", "state": "search for the population data using a more reliable approach"}

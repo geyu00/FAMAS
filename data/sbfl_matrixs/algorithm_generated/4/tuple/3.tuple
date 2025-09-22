@@ -1,0 +1,7 @@
+{"agent": "Data_Analysis_Expert", "action": "concur", "state": "agree with findings and proceed to terminate"}
+{"agent": "HawaiiRealEstate_Expert", "action": "request confirmation", "state": "ask Data_Analysis_Expert to concur with findings"}
+{"agent": "HawaiiRealEstate_Expert", "action": "summarize", "state": "2072 Akaikai Loop sold for more at 780000"}
+{"agent": "HawaiiRealEstate_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "HawaiiRealEstate_Expert", "action": "write script", "state": "fetch sale prices for 2072 Akaikai Loop and 2017 Komo Mai Drive"}
+{"agent": "Validation_Expert", "action": "update script", "state": "add print statement to output the results"}
+{"agent": "Validation_Expert", "action": "validate", "state": "confirm findings and output format"}

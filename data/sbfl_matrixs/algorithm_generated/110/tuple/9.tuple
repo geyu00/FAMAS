@@ -1,0 +1,4 @@
+{"agent": "DataAnalysis_Expert", "action": "summarize", "state": "list of hikes in Yellowstone that meet the specified criteria"}
+{"agent": "DataCollection_Expert", "action": "agree", "state": "with the analysis and the verified results"}
+{"agent": "DataCollection_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "write script", "state": "verify the hikes in Yellowstone that meet the criteria"}

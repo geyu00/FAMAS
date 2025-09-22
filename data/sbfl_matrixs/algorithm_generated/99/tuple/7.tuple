@@ -1,0 +1,4 @@
+{"agent": "AnalyticalReasoning_Expert", "action": "repeat", "state": "prompt for current ticket prices to proceed with calculations"}
+{"agent": "Ticket_Pricing_Expert", "action": "request", "state": "latest pricing for daily tickets and annual passes"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "verify", "state": "calculations are accurate based on the provided ticket pricing information"}

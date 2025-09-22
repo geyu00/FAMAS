@@ -1,0 +1,7 @@
+{"agent": "Filmography_Expert", "action": "compile list", "state": "feature films starring Isabelle Adjani with runtimes"}
+{"agent": "Filmography_Expert", "action": "summarize", "state": "highest rated Isabelle Adjani film available on Vudu"}
+{"agent": "IMDB_Ratings_Expert", "action": "execute code", "state": "fetch IMDB ratings without API key"}
+{"agent": "IMDB_Ratings_Expert", "action": "fetch ratings", "state": "IMDB ratings for available films"}
+{"agent": "IMDB_Ratings_Expert", "action": "wait", "state": "for availability information from StreamingAvailability_Expert"}
+{"agent": "StreamingAvailability_Expert", "action": "check", "state": "films on Vudu (Fandango at Home)"}
+{"agent": "StreamingAvailability_Expert", "action": "execute", "state": "script to check availability on Vudu"}

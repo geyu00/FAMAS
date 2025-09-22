@@ -1,0 +1,4 @@
+{"agent": "MathAnalysis_Expert", "action": "check", "state": "check Tesseract installation and access"}
+{"agent": "MusicTheory_Expert", "action": "execute", "state": "run OCR code to extract note letters from the image"}
+{"agent": "MusicTheory_Expert", "action": "run script", "state": "extract note letters using Tesseract via subprocess"}
+{"agent": "Verification_Expert", "action": "revise script", "state": "include installation and OCR in one script"}

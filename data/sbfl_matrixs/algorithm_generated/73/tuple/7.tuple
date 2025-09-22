@@ -1,0 +1,5 @@
+{"agent": "DoctorWhoScript_Expert", "action": "inform", "state": "first scene heading is INT. MAZE - DAY, request validation"}
+{"agent": "DoctorWhoScript_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "DoctorWhoScript_Expert", "action": "write script", "state": "extract the first scene heading from the official script"}
+{"agent": "Validation_Expert", "action": "update script", "state": "add print statement to display the first scene heading"}
+{"agent": "Validation_Expert", "action": "verify", "state": "confirm the accuracy of the first scene heading"}

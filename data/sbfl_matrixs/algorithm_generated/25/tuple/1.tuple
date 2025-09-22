@@ -1,0 +1,6 @@
+{"agent": "ModelEvaluation_Interpretation_Expert", "action": "summarize", "state": "Summarize the steps for the team to follow"}
+{"agent": "Physics_Expert", "action": "plan", "state": "Create code to retrieve information from arXiv papers"}
+{"agent": "Physics_Expert", "action": "plan", "state": "Locate the figure with three axes in the June 2022 paper and extract label words"}
+{"agent": "Verification_Expert", "action": "confirm", "state": "Look forward to the findings from Physics_Expert"}
+{"agent": "Verification_Expert", "action": "inform", "state": "Code did not extract label words, refine extraction approach"}
+{"agent": "Verification_Expert", "action": "propose", "state": "Consider manual review or PDF parsing for label extraction"}

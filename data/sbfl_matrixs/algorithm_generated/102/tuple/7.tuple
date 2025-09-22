@@ -1,0 +1,6 @@
+{"agent": "Filmography_Expert", "action": "write script", "state": "get the filmography of Isabelle Adjani"}
+{"agent": "IMDB_Ratings_Expert", "action": "agree", "state": "filtered list from Filmography_Expert"}
+{"agent": "IMDB_Ratings_Expert", "action": "provide", "state": "list of Isabelle Adjani's films with valid runtimes"}
+{"agent": "IMDB_Ratings_Expert", "action": "update script", "state": "include error handling and check the status of the API response"}
+{"agent": "StreamingAvailability_Expert", "action": "check", "state": "availability of The Story of Adele H. on Vudu and retrieve its IMDB rating"}
+{"agent": "StreamingAvailability_Expert", "action": "suggest", "state": "manually gather Isabelle Adjani's filmography from a reliable source"}

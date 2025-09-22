@@ -1,0 +1,5 @@
+{"agent": "DataAnalysis_Expert", "action": "inform", "state": "verify the actual dataset URL before proceeding"}
+{"agent": "DataAnalysis_Expert", "action": "request", "state": "provide the confirmed URL for the dataset"}
+{"agent": "DataVerification_Expert", "action": "search", "state": "find the correct URL for the USGS Nonindigenous Aquatic Species database"}
+{"agent": "DataVerification_Expert", "action": "suggest", "state": "perform a manual search to find the dataset URL"}
+{"agent": "Data_Visualization_Expert", "action": "suggest", "state": "common URL structure for the USGS Nonindigenous Aquatic Species database"}

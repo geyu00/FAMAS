@@ -1,0 +1,5 @@
+{"agent": "MathAnalysis_Expert", "action": "install", "state": "ensure pytesseract is correctly installed"}
+{"agent": "MathAnalysis_Expert", "action": "propose", "state": "use opencv-python and pytesseract for OCR"}
+{"agent": "MusicTheory_Expert", "action": "execute", "state": "run OCR code to extract note letters from the sheet music image"}
+{"agent": "MusicTheory_Expert", "action": "suggest", "state": "use command line tesseract for OCR"}
+{"agent": "Verification_Expert", "action": "suggest", "state": "use pytesseract library for OCR"}

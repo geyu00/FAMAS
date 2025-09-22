@@ -1,0 +1,5 @@
+{"agent": "DataAnalysis_Expert", "action": "search", "state": "find the correct URL for the USGS Nonindigenous Aquatic Species database"}
+{"agent": "DataAnalysis_Expert", "action": "write script", "state": "check the first 10 lines of the CSV file"}
+{"agent": "DataVerification_Expert", "action": "extract data", "state": "filter nonindigenous crocodiles in Florida from 2000 to 2020"}
+{"agent": "DataVerification_Expert", "action": "search", "state": "find the correct URL for the USGS Nonindigenous Aquatic Species dataset"}
+{"agent": "StatisticalAnalysis_Expert", "action": "check format", "state": "read the first 10 lines of the CSV file to identify issues"}

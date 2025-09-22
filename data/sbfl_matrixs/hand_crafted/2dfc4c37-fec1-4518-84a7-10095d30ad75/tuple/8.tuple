@@ -1,0 +1,12 @@
+{"agent": "Assistant", "action": "provide", "state": "number of overlapping movies"}
+{"agent": "MagenticOneOrchestrator", "action": "compare", "state": "top 10 highest-grossing worldwide movies with the top 10 highest-grossing domestic movies"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "2020 Worldwide Box Office list on the Box Office Mojo website and extract the top 10 highest-grossing worldwide movies and their rankings"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "Box Office Mojo's 2020 Domestic Box Office list"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Box Office Mojo homepage and click on 'Yearly' in the navigation menu, then select the year 2020"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Use WebSurfer to navigate to the Box Office Mojo website and find the 2020 Worldwide Box Office list"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "final numerical answer"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information and additional educated guess"}
+{"agent": "WebSurfer", "action": "click", "state": "2020 Worldwide Box Office - Box Office Mojo"}
+{"agent": "WebSurfer", "action": "click", "state": "Domestic"}
+{"agent": "WebSurfer", "action": "type", "state": "Box Office Mojo 2020 Domestic Box Office list"}
+{"agent": "WebSurfer", "action": "type", "state": "Box Office Mojo 2020 Worldwide Box Office list"}

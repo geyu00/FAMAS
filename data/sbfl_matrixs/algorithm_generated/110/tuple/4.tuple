@@ -1,0 +1,7 @@
+{"agent": "DataAnalysis_Expert", "action": "suggest", "state": "manual verification of hikes on TripAdvisor"}
+{"agent": "DataCollection_Expert", "action": "report", "state": "list of hikes meeting the criteria with ratings and reviews"}
+{"agent": "DataCollection_Expert", "action": "search", "state": "manually check TripAdvisor for each hike and gather data"}
+{"agent": "DataCollection_Expert", "action": "write script", "state": "gather information about the hikes from TripAdvisor"}
+{"agent": "Verification_Expert", "action": "advise", "state": "proceed with manual search and document findings"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "verify", "state": "confirm all hikes meet the criteria and agree with the conclusion"}

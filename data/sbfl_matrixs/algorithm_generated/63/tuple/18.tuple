@@ -1,0 +1,6 @@
+{"agent": "MathAnalysis_Expert", "action": "confirm", "state": "proceed with manual identification of notes"}
+{"agent": "MathAnalysis_Expert", "action": "suggest", "state": "use alternative OCR method or manual note identification"}
+{"agent": "MusicTheory_Expert", "action": "await", "state": "confirmation on manual identification or alternative tools"}
+{"agent": "MusicTheory_Expert", "action": "execute", "state": "run OCR code to extract note letters from the image"}
+{"agent": "MusicTheory_Expert", "action": "propose", "state": "instructions for manual note identification"}
+{"agent": "Verification_Expert", "action": "suggest", "state": "install Tesseract OCR library and execute OCR"}

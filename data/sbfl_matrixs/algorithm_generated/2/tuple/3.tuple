@@ -1,0 +1,4 @@
+{"agent": "DataAnalysis_Expert", "action": "create sample data", "state": "representing the number of athletes each country sent to the 1928 Summer Olympics"}
+{"agent": "DataAnalysis_Expert", "action": "request", "state": "CSV file containing the information about the countries and their athlete counts"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "verify", "state": "check for ties and confirm the output of the analysis"}

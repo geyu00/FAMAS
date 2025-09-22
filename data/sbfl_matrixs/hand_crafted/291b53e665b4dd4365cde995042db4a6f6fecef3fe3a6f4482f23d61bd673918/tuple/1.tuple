@@ -1,0 +1,17 @@
+{"agent": "MagenticOneOrchestrator", "action": "Search", "state": "GFF3 file for beluga whales on NCBI or other databases"}
+{"agent": "MagenticOneOrchestrator", "action": "extract", "state": "direct download link for the GFF3 file for the beluga whale genome assembly ASM228892v3"}
+{"agent": "MagenticOneOrchestrator", "action": "locate", "state": "the GFF3 file for the beluga whale genome assembly ASM228892v3"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "NCBI Datasets page for the beluga whale genome assembly GCF_002288925.2"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "search for the most recent GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "https://ftp.ensembl.org/pub/current_gff3/delphinapterus_leucas/Delphinapterus_leucas.ASM228892v3.114.gff3.gz"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "down to the 'Download' section and locate the FTP link or the specific GFF3 file in the list of available downloads"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "through the search results to find links to authoritative genomic databases"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the most recent GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "WebSurfer", "action": "click", "state": "Beluga whale (Beluga whale Species Home Page)"}
+{"agent": "WebSurfer", "action": "click", "state": "Downloads"}
+{"agent": "WebSurfer", "action": "click", "state": "FTP site"}
+{"agent": "WebSurfer", "action": "provide", "state": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/288/925/GCF_002288925.2_ASM228892v3/GCF_002288925.2_ASM228892v3_genomic.gff.gz"}
+{"agent": "WebSurfer", "action": "scroll", "state": "down one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "Ensembl archives beluga whale GFF3 file 20/10/2020 "}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.ncbi.nlm.nih.gov/"}
+{"agent": "WebSurfer", "action": "type", "state": "most recent GFF3 file for beluga whales as of 20/10/2020 NCBI Ensembl"}

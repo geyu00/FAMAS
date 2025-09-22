@@ -1,0 +1,4 @@
+{"agent": "ISBNCheckDigit_Expert", "action": "modify code", "state": "include print statement to display the result"}
+{"agent": "ISBNCheckDigit_Expert", "action": "plan", "state": "Compute the check digit for the Tropicos ID for the Order Helotiales as if it were an ISBN-10 number"}
+{"agent": "VerificationExpert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "VerificationExpert", "action": "verify", "state": "check digit for the Tropicos ID 8200000 as an ISBN-10 number is X"}

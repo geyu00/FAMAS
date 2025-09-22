@@ -1,0 +1,28 @@
+{"agent": "Assistant", "action": "guide", "state": "calling FedEx customer service number at 1-800-463-3339"}
+{"agent": "MagenticOneOrchestrator", "action": "call", "state": "FedEx customer service number at 1-800-463-3339"}
+{"agent": "MagenticOneOrchestrator", "action": "fill out", "state": "USPS calculator with shipping details"}
+{"agent": "MagenticOneOrchestrator", "action": "input", "state": "details into the form"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Fill out the USPS Retail Postage Price Calculator form with the required details"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to contact DHL customer service"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "DHL customer service page"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "FedEx customer service page"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "USPS 'Calculate a Price' tool to find shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "official USPS website"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "official websites of DHL and USPS to find shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "address the user request for the cheapest shipping option to mail a DVD to Colombia from Hartford, Connecticut using FedEx, DHL, or USPS"}
+{"agent": "MagenticOneOrchestrator", "action": "select", "state": "Package as the item type"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information"}
+{"agent": "WebSurfer", "action": "click", "state": "Calculate Shipping Rates | FedEx"}
+{"agent": "WebSurfer", "action": "click", "state": "Calculate a Price"}
+{"agent": "WebSurfer", "action": "click", "state": "DHL"}
+{"agent": "WebSurfer", "action": "click", "state": "Get a free International shipping quote online - DHL"}
+{"agent": "WebSurfer", "action": "click", "state": "Package"}
+{"agent": "WebSurfer", "action": "click", "state": "Quick Tools"}
+{"agent": "WebSurfer", "action": "guide", "state": "calling FedEx customer service number at 1-800-463-3339"}
+{"agent": "WebSurfer", "action": "navigate", "state": "DHL customer service page"}
+{"agent": "WebSurfer", "action": "type", "state": "0.5 into 'Pounds'"}
+{"agent": "WebSurfer", "action": "type", "state": "Colombia into What's the destination country?"}
+{"agent": "WebSurfer", "action": "type", "state": "DHL rate calculator, USPS rate calculator"}
+{"agent": "WebSurfer", "action": "type", "state": "FedEx customer service phone number"}
+{"agent": "WebSurfer", "action": "type", "state": "Hartford, CT into 'What's the Date you plan to mail the item?'"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.usps.com"}

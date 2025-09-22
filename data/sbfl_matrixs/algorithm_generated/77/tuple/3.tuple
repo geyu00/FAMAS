@@ -1,0 +1,6 @@
+{"agent": "Ornithologist_Expert", "action": "plan", "state": "Download the video and extract frames using the provided Python script"}
+{"agent": "VideoProcessing_Expert", "action": "check", "state": "Python version being used"}
+{"agent": "VideoProcessing_Expert", "action": "plan", "state": "attempt video download with cookies to bypass verification"}
+{"agent": "YouTubeDownload_Expert", "action": "download", "state": "the video from the provided link using yt-dlp"}
+{"agent": "YouTubeDownload_Expert", "action": "install", "state": "yt-dlp"}
+{"agent": "YouTubeDownload_Expert", "action": "retry", "state": "video download without specifying format"}

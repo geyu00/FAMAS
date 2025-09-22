@@ -1,0 +1,5 @@
+{"agent": "AlgorithmDesign_Expert", "action": "write script", "state": "calculate the number of recyclable bottles and the total amount received from recycling"}
+{"agent": "RecyclingRate_Expert", "action": "calculate", "state": "total amount of money received from recycling based on verified rate"}
+{"agent": "RecyclingRate_Expert", "action": "verify", "state": "recycling rate for water bottles from Wikipedia"}
+{"agent": "Validation_Expert", "action": "review", "state": "output from the code execution and summarize the results"}
+{"agent": "Validation_Expert", "action": "terminate", "state": "TERMINATE"}

@@ -1,0 +1,6 @@
+{"agent": "AcademicPublication_Expert", "action": "execute", "state": "use scholarly to find the authors of the paper"}
+{"agent": "AcademicPublication_Expert", "action": "search", "state": "paper authors in Google Scholar"}
+{"agent": "AcademicPublication_Expert", "action": "suggest", "state": "install the scholarly package and rerun the search"}
+{"agent": "PublicationAnalysis_Expert", "action": "agree", "state": "with the suggestion to perform a manual search on Google Scholar"}
+{"agent": "PublicationAnalysis_Expert", "action": "request", "state": "names of the authors when available"}
+{"agent": "Verification_Expert", "action": "suggest", "state": "refine search method and check alternative databases"}

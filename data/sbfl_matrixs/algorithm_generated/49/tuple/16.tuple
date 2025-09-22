@@ -1,0 +1,4 @@
+{"agent": "DataExtraction_Expert", "action": "write script", "state": "extract the text from the DOCX file"}
+{"agent": "Validation_Expert", "action": "summarize", "state": "Alex did not give a gift, terminate the discussion"}
+{"agent": "Validation_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Validation_Expert", "action": "validate", "state": "verify the extracted data and prepare for analysis"}

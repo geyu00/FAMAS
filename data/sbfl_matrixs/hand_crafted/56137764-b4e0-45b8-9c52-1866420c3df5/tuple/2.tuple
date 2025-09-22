@@ -1,0 +1,25 @@
+{"agent": "Assistant", "action": "compare", "state": "names of the contributors to the pull request #12243 and the list of former Chinese heads of government"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Deng Xiaoping"}
+{"agent": "MagenticOneOrchestrator", "action": "compare", "state": "names of the contributors (dkurt, alalek, mshabunin) to the list of former Chinese heads of government (Mao Zedong, Zhou Enlai, Deng Xiaoping, Jiang Zemin, Hu Jintao, Li Peng)"}
+{"agent": "MagenticOneOrchestrator", "action": "continue", "state": "scrolling through the changelog for version 4.5.0 and find the specific mention of Mask-RCNN support. Also, extract the list of contributors for this version"}
+{"agent": "MagenticOneOrchestrator", "action": "extract", "state": "names of the contributors from the pull request #12243 and provide a list of these names"}
+{"agent": "MagenticOneOrchestrator", "action": "extract", "state": "version number of OpenCV mentioned in the issue and any contributors involved in the discussion or related pull requests"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "first search result that mentions the addition of Mask-RCNN support in OpenCV"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "pull request #12243 in the OpenCV GitHub repository and extract the names of the contributors"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "the official OpenCV documentation or release notes and find the exact version of OpenCV where Mask-RCNN support was officially added"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "team to address the user request about OpenCV Mask-RCNN support"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "a list of former Chinese heads of government and their names transliterated to the Latin alphabet"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the commit history of the OpenCV repository for any mentions of 'Mask-RCNN support' or 'Mask-RCNN integration'"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the specific version of OpenCV where support for the Mask-RCNN model was added"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet based on gathered information"}
+{"agent": "WebSurfer", "action": "click", "state": "Releases 66"}
+{"agent": "WebSurfer", "action": "click", "state": "Support Mask RCNN models \u00b7 Issue #11412 \u00b7 opencv/opencv"}
+{"agent": "WebSurfer", "action": "click", "state": "github.com/opencv/opencv"}
+{"agent": "WebSurfer", "action": "extract", "state": "names of the contributors from the pull request #12243 and provide a list of these names"}
+{"agent": "WebSurfer", "action": "extract", "state": "version number of OpenCV mentioned in the issue and any contributors involved in the discussion or related pull requests"}
+{"agent": "WebSurfer", "action": "generate", "state": "error message for unknown tool 'extract_text'"}
+{"agent": "WebSurfer", "action": "scroll", "state": "down one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "OpenCV release notes Mask-RCNN support"}
+{"agent": "WebSurfer", "action": "type", "state": "OpenCV version with Mask-RCNN support"}
+{"agent": "WebSurfer", "action": "type", "state": "former Chinese heads of government Latin alphabet names"}
+{"agent": "WebSurfer", "action": "typed", "state": "'repo:opencv/opencv DNN module Mask-RCNN 4.0.0-pre' into 'Search or jump to\u2026'."}

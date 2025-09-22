@@ -1,0 +1,5 @@
+{"agent": "ImageProcessing_Expert", "action": "check", "state": "verify tesseract executable is installed and accessible"}
+{"agent": "ImageProcessing_Expert", "action": "install", "state": "install pytesseract and Pillow libraries"}
+{"agent": "ImageProcessing_Expert", "action": "suggest", "state": "reinstall pytesseract directly through pip"}
+{"agent": "ProblemSolving_Expert", "action": "define", "state": "optical_character_recognition function using pytesseract"}
+{"agent": "Verification_Expert", "action": "revise", "state": "ensure only simplified fractions are included in the final output"}

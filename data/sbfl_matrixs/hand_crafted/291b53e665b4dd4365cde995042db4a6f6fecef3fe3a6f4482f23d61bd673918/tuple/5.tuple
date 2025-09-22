@@ -1,0 +1,23 @@
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "on the 'Download GFF3 files for genes, cDNAs, ncRNA, proteins' link"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "on the 'Ensembl 102: Nov 2020' link"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "Download GFF3 files for genes, cDNAs, ncRNA, proteins section on the current page"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to https://mart.ensembl.org/Delphinapterus_leucas/Info/Index and click on the 'Downloads' section"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl 102 archive (Nov 2020) and check if there is a GFF3 file for beluga whales"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl 102: Nov 2020 release page by entering the URL `http://nov2020.archive.ensembl.org` in the browser address bar"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl archive page at [this link](http://archive.ensembl.org/) and identify the Ensembl 102: Nov 2020 release"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl archives page (https://www.ensembl.org/info/website/archives/index.html)"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Address the user request for the GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "through the list of releases to find the one closest to the specified date (20/10/2020)"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "'Delphinapterus leucas' or 'beluga whale' on the Ensembl 102: Nov 2020 archive page"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the most recent GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "the fact sheet and plan to address the user request"}
+{"agent": "MagenticOneOrchestrator", "action": "verify", "state": "release date of the GFF3 file listed on this page to ensure it is the most recent one as of 20/10/2020"}
+{"agent": "WebSurfer", "action": "click", "state": "Delphinapterus_leucas - Ensembl genome browser 114"}
+{"agent": "WebSurfer", "action": "click", "state": "Ensembl 102: Nov 2020"}
+{"agent": "WebSurfer", "action": "click", "state": "GFF3"}
+{"agent": "WebSurfer", "action": "scroll", "state": "down one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "'http://archive.ensembl.org/' "}
+{"agent": "WebSurfer", "action": "type", "state": "Delphinapterus leucas"}
+{"agent": "WebSurfer", "action": "type", "state": "https://archive.ensembl.org/"}
+{"agent": "WebSurfer", "action": "type", "state": "https://mart.ensembl.org/Delphinapterus_leucas/Info/Index"}
+{"agent": "WebSurfer", "action": "type", "state": "most recent GFF3 file for beluga whales as of 20/10/2020 NCBI Ensembl"}

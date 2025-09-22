@@ -44,19 +44,16 @@ class DStar2(SuspiciousnessFormula):
     def compute(self, ncf: float, ncs: float, Nf: float, Ns: float, weight=1.0, mpIDF=1.0) -> float:
         denom = mpIDF*ncs + (Nf - ncf)  # passed(e) + not_exec_failed(e)
         if denom == 0:
-            return float('inf')  # 极端情况下可以返回 inf（DStar 本身允许）
+            return float('inf')  
         return ((1.0*weight *ncf) ** 2) / (denom*1.0)
 
 
 class Kulczynski2(SuspiciousnessFormula):
     def compute(self, ncf: float, ncs: float, Nf: float, Ns: float, weight=1.0, mpIDF=1.0) -> float:
-        denom1 = weight *ncf + (Nf - ncf)  # failed(e) + not_exec_failed(e) = total failed
+        denom1 = weight *ncf + (Nf - ncf)  
         denom2 = weight *ncf + mpIDF*ncs
         if denom1 == 0 or denom2 == 0:
             return 0.0
-        # if ncs == 0:
-        #     return weight* ((ncf*2.0) / (3.0*1.0*denom1) + (ncf*1.0) / (3.0*1.0*denom2))
-        # else:
         return  0.5 *((weight *ncf) / ( 1.0 * denom1) + (weight *ncf * 1.0) / ( 1.0 * denom2))
 
 class Ochiai_Kulczynski2(SuspiciousnessFormula):
@@ -65,13 +62,10 @@ class Ochiai_Kulczynski2(SuspiciousnessFormula):
             return 0.0
         s1 = weight*ncf / (((weight*ncf + (Nf - ncf)) * (weight*ncf + mpIDF*ncs)*1.0) ** 0.5)
         
-        denom1 = weight *ncf + (Nf - ncf)  # failed(e) + not_exec_failed(e) = total failed
+        denom1 = weight *ncf + (Nf - ncf)  
         denom2 = weight *ncf + mpIDF*ncs
         if denom1 == 0 or denom2 == 0:
             return 0.0
-        # if ncs == 0:
-        #     return weight* ((ncf*2.0) / (3.0*1.0*denom1) + (ncf*1.0) / (3.0*1.0*denom2))
-        # else:
         s2 = 0.5 *((weight *ncf) / ( 1.0 * denom1) + (weight *ncf * 1.0) / ( 1.0 * denom2))
         
         return (2*s1 + 2*s2)/4

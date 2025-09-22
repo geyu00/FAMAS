@@ -1,0 +1,5 @@
+{"agent": "Literature_Expert", "action": "prepare", "state": "Python code to automate the task of checking the quoted text against the in-line citation"}
+{"agent": "Literature_Expert", "action": "summarize", "state": "quoted text does not match, word that does not match is cloak, task is complete"}
+{"agent": "Research_Expert", "action": "retrieve", "state": "original article from Project MUSE using the provided DOI"}
+{"agent": "VerificationExpert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "VerificationExpert", "action": "verify", "state": "quoted text in the in-line citation does not match the original article, word that does not match is cloak"}

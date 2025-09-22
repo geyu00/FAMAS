@@ -1,0 +1,5 @@
+{"agent": "DataExtraction_Expert", "action": "execute", "state": "extract the employee data from the document"}
+{"agent": "DataExtraction_Expert", "action": "write script", "state": "extract the text from the DOCX file"}
+{"agent": "Validation_Expert", "action": "provide command", "state": "install python-docx library"}
+{"agent": "Validation_Expert", "action": "suggest", "state": "provide a self-contained code snippet with installation check"}
+{"agent": "Validation_Expert", "action": "suggest", "state": "separate installation and execution steps"}

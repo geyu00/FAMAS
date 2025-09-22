@@ -1,0 +1,4 @@
+{"agent": "DoctorWhoScript_Expert", "action": "provide", "state": "exact setting as it appears in the first scene heading"}
+{"agent": "Validation_Expert", "action": "validate", "state": "information provided by DoctorWhoScript_Expert"}
+{"agent": "VideoAnalysis_Expert", "action": "summarize", "state": "recap and conclude the conversation"}
+{"agent": "VideoAnalysis_Expert", "action": "terminate", "state": "TERMINATE"}

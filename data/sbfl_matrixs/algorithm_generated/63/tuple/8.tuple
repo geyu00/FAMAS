@@ -1,0 +1,4 @@
+{"agent": "MusicTheory_Expert", "action": "execute", "state": "run OCR code to extract note letters from the image"}
+{"agent": "Verification_Expert", "action": "check", "state": "verify Tesseract installation and accessibility"}
+{"agent": "Verification_Expert", "action": "test", "state": "verify Tesseract access from Python"}
+{"agent": "Verification_Expert", "action": "troubleshoot", "state": "install required OCR library pytesseract"}

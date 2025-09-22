@@ -1,0 +1,5 @@
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "write script", "state": "fetch and verify data from USGS for Amphiprion ocellaris"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "analyze", "state": "review raw response content and adjust parsing logic"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "recap", "state": "the zip code where Amphiprion ocellaris was found as a nonnative species before 2020 is 34683"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "verify", "state": "manually verify the zip code associated with the location mentioned (Pinellas County, Florida)"}
+{"agent": "Scientific_Verification_Expert", "action": "revise script", "state": "include parsing the HTML to find the relevant zip code information"}

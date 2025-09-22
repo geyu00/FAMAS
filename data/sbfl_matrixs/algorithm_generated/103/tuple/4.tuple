@@ -1,0 +1,5 @@
+{"agent": "DataVerification_Expert", "action": "manual search", "state": "identify eateries known to be open late in the area"}
+{"agent": "DataVerification_Expert", "action": "switch to Bing Search API", "state": "find eateries near Harkness Memorial State Park using Bing Search API"}
+{"agent": "Eateries_Expert", "action": "provide list", "state": "common eateries in the area known to be open late"}
+{"agent": "Eateries_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Location-Based_Services_Expert", "action": "execute script", "state": "find eateries near Harkness Memorial State Park using Google Places API"}

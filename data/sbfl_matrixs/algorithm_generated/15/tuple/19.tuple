@@ -1,0 +1,6 @@
+{"agent": "Boggle_Board_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Boggle_Board_Expert", "action": "write script", "state": "implement the steps to solve the Boggle board puzzle"}
+{"agent": "Dictionary_Expert", "action": "write script", "state": "load the words_alpha dictionary"}
+{"agent": "Verification_Expert", "action": "confirm", "state": "FOIRL is a valid word in the words_alpha dictionary"}
+{"agent": "Verification_Expert", "action": "verify", "state": "check if FOIRL is a valid word in the words_alpha dictionary"}
+{"agent": "Verification_Expert", "action": "write script", "state": "validate the word FOIRL against the dictionary"}

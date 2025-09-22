@@ -1,0 +1,22 @@
+{"agent": "ComputerTerminal", "action": "run", "state": "FTP commands to navigate Ensembl FTP site"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "GFF3 files for genes, cDNAs, ncRNA, proteins"}
+{"agent": "MagenticOneOrchestrator", "action": "list", "state": "FTP directory for beluga whale GFF3 files"}
+{"agent": "MagenticOneOrchestrator", "action": "locate", "state": "GFF3 file for beluga whales"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "Downloads section on Ensembl page for beluga whale"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "historical releases section of the Ensembl FTP site"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "specific Ensembl page for beluga whales (Delphinapterus leucas)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to https://mart.ensembl.org/Delphinapterus_leucas/Info/Index and click on the 'Downloads' section"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl archive page at [this link](http://archive.ensembl.org/) and identify the Ensembl 102: Nov 2020 release"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Address the user request for the GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "https://ftp.ensembl.org/pub/current_gff3/delphinapterus_leucas/Delphinapterus_leucas.ASM228892v3.114.gff3.gz"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "Downloads section"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "reputable genomic databases for beluga whale GFF3 file"}
+{"agent": "WebSurfer", "action": "click", "state": "Delphinapterus_leucas - Ensembl genome browser 114"}
+{"agent": "WebSurfer", "action": "click", "state": "Downloads"}
+{"agent": "WebSurfer", "action": "click", "state": "GFF3"}
+{"agent": "WebSurfer", "action": "click", "state": "browser back button"}
+{"agent": "WebSurfer", "action": "scroll", "state": "down one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "https://archive.ensembl.org/"}
+{"agent": "WebSurfer", "action": "type", "state": "https://ftp.ensembl.org/pub/release-113/gff3/delphinapterus_leucas/ "}
+{"agent": "WebSurfer", "action": "type", "state": "https://mart.ensembl.org/Delphinapterus_leucas/Info/Index"}
+{"agent": "WebSurfer", "action": "type", "state": "most recent GFF3 file for beluga whales as of 20/10/2020 NCBI Ensembl"}

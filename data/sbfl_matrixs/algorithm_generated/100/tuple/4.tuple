@@ -1,0 +1,8 @@
+{"agent": "Movie_Expert", "action": "confirm", "state": "highest rated Daniel Craig movie that is less than 150 minutes and available on Netflix (US) is Knives Out (2019)"}
+{"agent": "Movie_Expert", "action": "provide", "state": "details about Daniel Craig movies and their IMDb ratings"}
+{"agent": "Movie_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "StreamingService_Expert", "action": "check", "state": "availability of Casino Royale, Skyfall, Knives Out, and Layer Cake on Netflix (US)"}
+{"agent": "StreamingService_Expert", "action": "gather", "state": "Daniel Craig movies and their IMDB ratings and durations"}
+{"agent": "StreamingService_Expert", "action": "inform", "state": "approach to check availability through online resources"}
+{"agent": "StreamingService_Expert", "action": "summarize", "state": "availability and ratings of Layer Cake and Knives Out on Netflix (US)"}
+{"agent": "StreamingService_Expert", "action": "verify", "state": "availability of Casino Royale (2006) on Netflix US"}

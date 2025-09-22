@@ -1,0 +1,23 @@
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Lucky Inn Wok, 40 Boston Post Rd, Waterford, CT 06385"}
+{"agent": "MagenticOneOrchestrator", "action": "ask", "state": "Find the distances from Harkness Memorial State Park to each of the following restaurants and confirm their operating hours on Wednesdays: Fred's Shanty Restaurant, Mambo Bar & Restaurant, Captain Scott's Lobster Dock, Lucky Inn Chinese Restaurant, Tony D's, and Ocean Pizza Restaurant and Bar."}
+{"agent": "MagenticOneOrchestrator", "action": "ask", "state": "Search for a list of eateries near Harkness Memorial State Park, located at 275 Great Neck Road, Waterford, CT 06385, and gather their operating hours, particularly their closing times on Wednesdays"}
+{"agent": "MagenticOneOrchestrator", "action": "ask", "state": "Search for the official address of Harkness Memorial State Park."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "team to address user request"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet and plan to address user request"}
+{"agent": "WebSurfer", "action": "ask", "state": "Search for 'Tony D's, 92 Huntington St, Waterford, CT 06385' and 'Ocean Pizza Restaurant and Bar, 88 Ocean Ave, New London, CT 06320' on Google Maps. Provide the distance from Harkness Memorial State Park (275 Great Neck Road, Waterford, CT 06385) and their closing times on Wednesdays"}
+{"agent": "WebSurfer", "action": "click", "state": "Directions"}
+{"agent": "WebSurfer", "action": "click", "state": "Fred's Shanty Restaurant - Fred's Shanty Restaurant"}
+{"agent": "WebSurfer", "action": "click", "state": "Go"}
+{"agent": "WebSurfer", "action": "click", "state": "View on Larger Map"}
+{"agent": "WebSurfer", "action": "type", "state": "275 Great Neck Road, Waterford, CT 06385"}
+{"agent": "WebSurfer", "action": "type", "state": "Captain Scott's Lobster Dock, 102 Bank St, New London, CT 06320, United States into 'Starting point Mambo Bar & Restaurant, 200 Bank St, New London, CT 06320, United States'"}
+{"agent": "WebSurfer", "action": "type", "state": "Fred's Shanty Restaurant, 272 Pequot Ave, New London, CT 06320"}
+{"agent": "WebSurfer", "action": "type", "state": "Harkness Memorial State Park official website address coordinates"}
+{"agent": "WebSurfer", "action": "type", "state": "Lucky Inn Chinese Restaurant, 200 Bank St, New London, CT 06320"}
+{"agent": "WebSurfer", "action": "type", "state": "Lucky Inn Chinese Restaurant, Tony D's, Ocean Pizza Restaurant and Bar - distances from Harkness Memorial State Park and closing times on Wednesdays"}
+{"agent": "WebSurfer", "action": "type", "state": "Mambo Bar & Restaurant operating hours Google Maps"}
+{"agent": "WebSurfer", "action": "type", "state": "Tony D's closing time Wednesday, Fred's Shanty Restaurant closing time Wednesday, Paul's Pasta Shop closing time Wednesday, Captain Scott's Lobster Dock closing time Wednesday, Dad's Restaurant of Niantic closing time Wednesday, distance from Harkness Memorial State Park to Tony D's, distance from Harkness Memorial State Park to Fred's Shanty Restaurant, distance from Harkness Memorial State Park to Paul's Pasta Shop, distance from Harkness Memorial State Park to Captain Scott's Lobster Dock, distance from Harkness Memorial State Park to Dad's Restaurant of Niantic"}
+{"agent": "WebSurfer", "action": "type", "state": "Tony D's, 92 Huntington St, Waterford, CT 06385 and Ocean Pizza Restaurant and Bar, 88 Ocean Ave, New London, CT 06385"}
+{"agent": "WebSurfer", "action": "type", "state": "Tony D's, Ocean Pizza Restaurant and Bar - distances from Harkness Memorial State Park and closing times on Wednesdays"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.google.com/maps"}
+{"agent": "WebSurfer", "action": "type", "state": "restaurants near Harkness Memorial State Park open late Wednesday night"}

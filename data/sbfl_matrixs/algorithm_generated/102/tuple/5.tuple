@@ -1,0 +1,8 @@
+{"agent": "Filmography_Expert", "action": "compile list", "state": "feature films starring Isabelle Adjani with runtimes"}
+{"agent": "Filmography_Expert", "action": "summarize", "state": "results of the task and final film selection"}
+{"agent": "Filmography_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "IMDB_Ratings_Expert", "action": "check", "state": "availability of films on Vudu"}
+{"agent": "IMDB_Ratings_Expert", "action": "filter films", "state": "films with runtime less than 2 hours"}
+{"agent": "IMDB_Ratings_Expert", "action": "identify", "state": "highest rated film from available films"}
+{"agent": "IMDB_Ratings_Expert", "action": "retrieve", "state": "IMDB ratings for available films"}
+{"agent": "StreamingAvailability_Expert", "action": "check", "state": "availability on Vudu for filtered films"}

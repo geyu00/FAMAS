@@ -1,0 +1,6 @@
+{"agent": "MathAnalysis_Expert", "action": "request", "state": "share extracted text from OCR"}
+{"agent": "MathAnalysis_Expert", "action": "summarize", "state": "next steps to install Tesseract and run OCR"}
+{"agent": "MusicTheory_Expert", "action": "execute", "state": "run OCR code to extract note letters from the image"}
+{"agent": "Verification_Expert", "action": "check", "state": "verify Tesseract installation and accessibility"}
+{"agent": "Verification_Expert", "action": "provide", "state": "alternative method to install Tesseract and run OCR"}
+{"agent": "Verification_Expert", "action": "suggest", "state": "use pytesseract library for OCR"}

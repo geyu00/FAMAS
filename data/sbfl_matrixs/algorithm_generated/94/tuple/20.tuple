@@ -1,0 +1,6 @@
+{"agent": "AnimalBehavior_Expert", "action": "observe", "state": "watch the video and document bird characteristics and behaviors"}
+{"agent": "BirdSpeciesIdentification_Expert", "action": "identify", "state": "African Grey Parrot as the likely species featured in the video"}
+{"agent": "BirdSpeciesIdentification_Expert", "action": "request", "state": "specific details about the bird seen in the video"}
+{"agent": "BirdSpeciesIdentification_Expert", "action": "wait", "state": "wait for AnimalBehavior_Expert to provide observations"}
+{"agent": "Ornithology_Expert", "action": "delegate", "state": "ask AnimalBehavior_Expert to watch the video and provide bird characteristics"}
+{"agent": "Ornithology_Expert", "action": "search", "state": "perform web search to find the BBC Earth YouTube video of the Top 5 Silliest Animal Moments"}

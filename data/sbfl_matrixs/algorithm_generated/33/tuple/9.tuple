@@ -1,0 +1,5 @@
+{"agent": "DOI_Expert", "action": "execute", "state": "Access the book using the provided DOI"}
+{"agent": "DOI_Expert", "action": "plan", "state": "use JSTOR API to access the book directly using the DOI"}
+{"agent": "InformationExtraction_Expert", "action": "plan", "state": "extract text from the PDF and focus on page 11"}
+{"agent": "InformationExtraction_Expert", "action": "plan", "state": "use Google Scholar or other databases to find the book"}
+{"agent": "InformationExtraction_Expert", "action": "refine search", "state": "formulate a more structured query using the DOI"}

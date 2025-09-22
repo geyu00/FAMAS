@@ -1,0 +1,4 @@
+{"agent": "DataAnalysis_Expert", "action": "request", "state": "provide filename or upload dataset for real estate data"}
+{"agent": "DataAnalysis_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "DataManipulation_Expert", "action": "write script", "state": "load and filter real estate data to find lowest sale price"}
+{"agent": "Verification_Expert", "action": "suggest", "state": "check filename or upload dataset to proceed"}

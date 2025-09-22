@@ -1,0 +1,191 @@
+{"agent": "Assistant", "action": "compare", "state": "current C-suite members and their roles with the C-suite positions at the time of the IPO"}
+{"agent": "FileSurfer", "action": "find", "state": "Management"}
+{"agent": "FileSurfer", "action": "open", "state": "Executive Officers in the PDF file 'c17b48e6-deb4-4726-bfc3-b293e5a42ce4.pdf'"}
+{"agent": "FileSurfer", "action": "search", "state": "local files for documents related to monday.com's IPO, specifically looking for details about the C-suite members who held positions during June 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "Filter", "state": "SEC filings to show only the documents from 2021 and locate the S-1 filing"}
+{"agent": "MagenticOneOrchestrator", "action": "Locate", "state": "the S-1 filing in the list of 2021 SEC filings and click on the 'pdf Format Download' link to view the document"}
+{"agent": "MagenticOneOrchestrator", "action": "Open", "state": "links to gather more detailed information about the C-suite members at the time of the IPO and the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "Scroll", "state": "down the page and look for the S-1 filing in the list of 2021 SEC filings"}
+{"agent": "MagenticOneOrchestrator", "action": "Search", "state": "credible sources that provide details about the C-suite members of monday.com at the time of the IPO and the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "Search", "state": "monday.com IPO press release C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "Search", "state": "reliable source that lists the C-suite members of monday.com at the time of their IPO in June 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "Search", "state": "the current C-suite members of monday.com and the date of the company's IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Adi Dar, Shiran Nawi"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Casey George"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Casey George, Chief Revenue Officer"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Casey George, Shiran Nawi, Daniel Lereya"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Yael Fuchs"}
+{"agent": "MagenticOneOrchestrator", "action": "check", "state": "SEC filings and more specific news sources (such as financial news websites) for information about monday.com's C-suite members at the time of their IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "monday.com Announces Launch of Initial Public Offering"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "on the first reliable result that appears to be a press release or news article from June 14, 2021, regarding monday.com's IPO. If the page does not load within 10 seconds, use the `sleep(10)` function to wait and then try clicking again. Extract the names and roles of the C-suite members from the IPO announcement"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "the first relevant link to the list of C-suite members of monday.com at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "the link to the monday.com press release announcing their IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "conclude", "state": "Tal, Alon"}
+{"agent": "MagenticOneOrchestrator", "action": "continue", "state": "scrolling through the search results and find official press releases or news articles from around the time of monday.com's IPO (June 10, 2021) that list the C-suite members and their roles"}
+{"agent": "MagenticOneOrchestrator", "action": "filter", "state": "the SEC filings to find the S-1 filing for monday.com's IPO. Download and review the S-1 filing to find the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "filter", "state": "the SEC filings to show only S-1 forms for the year 2021 and locate the S-1 filing for monday.com's IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "filter", "state": "the SEC filings to the year 2021 and find the S-1 filing for monday.com's IPO. Download and review the document to find the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "filter", "state": "the SEC filings to the year 2021 and look for the S-1 filing or other IPO-related documents that list the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "filter", "state": "the filings to show only S-1 forms. Then, click on the S-1 filing dated June 21, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "final", "state": "answer: Casey George, Shiran Nawi, Daniel Lereya"}
+{"agent": "MagenticOneOrchestrator", "action": "find", "state": "a press release or SEC filing from around June 14, 2021, that lists the C-suite members of monday.com at the time of their IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "find", "state": "the C-suite members of monday.com at the time of the IPO, which took place on June 14, 2021. Use reliable sources such as the company's official announcements, press releases, or financial news articles"}
+{"agent": "MagenticOneOrchestrator", "action": "find", "state": "the date of monday.com's IPO and the C-suite members at that time using reliable financial news sources or the company's official announcements"}
+{"agent": "MagenticOneOrchestrator", "action": "find", "state": "the date of monday.com's IPO and the C-suite members at that time. Use the official company website, SEC filings, and news articles covering the IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "history_back", "state": "Return to the 'About Us' page to check for a dedicated section for leadership or team"}
+{"agent": "MagenticOneOrchestrator", "action": "identify", "state": "the following C-suite members of monday.com at the time of their IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "increase_timeout", "state": "120 seconds"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the investor relations section of the monday.com website and look for press releases or other official communications related to the IPO. Specifically, find documents or announcements that list the C-suite members as of June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Perform a web search to find the current C-suite members of monday.com"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the first few search results for 'monday.com IPO press release June 10, 2021' and 'monday.com S-1 filing'. Extract the names and roles of the C-suite members mentioned in these documents."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the investor relations section of the monday.com website and look for press releases or other official communications related to the IPO, particularly those that list the C-suite members at the time of the IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please search for 'monday.com C-suite members June 10, 2021 press release' and 'monday.com IPO prospectus C-suite members.' Also, visit the official monday.com website and navigate to the investor relations section to find press releases or other official communications related to the IPO. Additionally, search for the IPO prospectus on the SEC website (sec.gov) using the company name and IPO date."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please search for press releases and SEC filings related to monday.com's IPO, specifically focusing on documents that list the C-suite members at the time of the IPO. Use specific search terms like 'monday.com IPO press release June 10, 2021' and 'monday.com S-1 filing'."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please visit the official monday.com website and navigate to the investor relations section. Look for press releases or other official communications related to the IPO. Additionally, search for the IPO prospectus on the SEC website (sec.gov) using the company name and IPO date."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Search for 'monday.com C-suite members June 10, 2021 press release' and 'monday.com IPO prospectus C-suite members'. Also, visit the official monday.com website and check the investor relations section for relevant information"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Search for a press release, SEC filing, or news article that lists the C-suite members of monday.com at the time of the IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Search for the C-suite members of monday.com at the time of their IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Search for the date of monday.com's IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Visit the official monday.com website and navigate to the investor relations section. Look for press releases or other official communications related to the IPO. Additionally, search for the IPO prospectus on the SEC website (sec.gov) using the company name and IPO date"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to click on the first link leading to a press release or news article about monday.com's IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to click on the press release titled 'monday.com Announces Pricing of Initial Public Offering' dated June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to extract names and titles of C-suite members mentioned in the press release"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to finalize the list of current C-suite members and compare with the IPO C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for 'monday.com IPO C-suite members' on a reliable search engine"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for 'monday.com leadership' on a reliable search engine"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to visit https://www.monday.com/about and navigate to the 'Leadership' section"}
+{"agent": "MagenticOneOrchestrator", "action": "manually", "state": "navigate to the official monday.com website and go to the press release section. Look for the IPO announcement from June 14, 2021. If the press release is not available, check the SEC filings for the same date to find the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "Click on the first link that appears to be the S-1 filing or IPO prospectus for monday.com and verify that it is the correct document. If it is, scroll through the document to find the section that lists the C-suite members at the time of the IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "the 'Corporate Governance - Management Team' page on the monday.com investor relations website (https://ir.monday.com/corporate-governance/management-team)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the 'Corporate Governance' section of the investor relations page (https://ir.monday.com/corporate-governance/default.aspx) and find the C-suite members at the time of the IPO (June 14, 2021)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the 'Investor Relations' or 'Press Releases' section of the monday.com website"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the 'Management Team' section on the Investor Relations page and list the current C-suite members along with their roles. If the information is not available there, search for press releases or news articles from the time of the IPO that list the C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the 'News & Events' section on the investor relations page and look for press releases or news articles from around the time of monday.com's IPO (June 10, 2021) that list the C-suite members and their roles"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the NoCamels article at https://nocamels.com/2021/06/largest-listings-monday-com-ipo-6-8b/ and find the C-suite members of monday.com at the time of the IPO in June 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the first few links on the search page, specifically the 'Monday.com IPO | S-1 Breakdown - Meritech Capital' and 'Monday.com Completes IPO On Nasdaq At $6.8B - NoCamels', and extract the names and titles of the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the first few links on the search page, specifically the 'monday.com - Corporate Governance - Management Team' and '10 Monday Executives & Org Chart - Clay', and extract the names and titles of the current C-suite members and the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the first result from the search 'monday.com IPO C-suite members June 14, 2021' and look for the press release or news article that lists the C-suite members at the time of the IPO. If the information is not clear, try the next result"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the official monday.com press release page and search for the IPO announcement. Alternatively, check financial news websites like Bloomberg, CNBC, or Reuters for articles about the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the official monday.com website and find the 'About Us' or 'Leadership' section to gather the names and titles of the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the official monday.com website and find the current C-suite members. Additionally, locate a reliable source that mentions the C-suite members at the time of the company's IPO, which took place on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a broader search for 'monday.com IPO C-suite members June 14, 2021' using Google's advanced search features to filter results by date (around June 2021). Do not use the `site:google.com` or `intitle` filters"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a targeted search for 'monday.com IPO C-suite members June 14, 2021' and navigate to relevant press releases or news articles. Also, navigate to the official monday.com press release page and search for the IPO announcement"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a targeted search for 'monday.com IPO C-suite members June 14, 2021' using Google's advanced search features to filter results by date (around June 2021). Also, check the official monday.com press release page and financial news websites like Bloomberg, CNBC, or Reuters for articles about the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a targeted search for 'monday.com IPO C-suite members June 14, 2021' using Google's advanced search features to filter results by date (around June 2021). Look for specific press releases or news articles that list the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a web search for 'monday.com C-suite members at IPO press release' and 'monday.com C-suite members at IPO news article'"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "a web search using the term 'monday.com IPO press release June 14, 2021' and find a reliable source that lists the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "perform", "state": "on the first result that appears to be a reliable press release or news article from June 14, 2021, regarding monday.com's IPO and extract the names and roles of the C-suite members mentioned"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Address the user request by assembling a team and outlining steps to find the current and IPO-era C-suite members of monday.com."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Conduct a web search to find the current C-suite members of monday.com and the date of their IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Navigate to the 'Investor Relations' or 'Press Releases' section of the monday.com website to find the IPO announcement and related press releases from June 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "New plan to find C-suite members of monday.com around the IPO date (June 10, 2021)"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "To answer the user request, we need to find the current C-suite members of monday.com and compare them with the C-suite members at the time of the company's IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "We are working to address the following user request: Which of the people in the monday.com C-suite did not have a C-suite position during the company's IPO?"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "team to address the user request"}
+{"agent": "MagenticOneOrchestrator", "action": "read", "state": "the PDF file 'c17b48e6-deb4-4726-bfc3-b293e5a42ce4.pdf' and extract the names of the C-suite members listed at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Can you please search for and provide a list of the current C-suite members of monday.com?"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Navigate to the SEC filings page for Monday.com, select the year 2021, and download the Form S-1/A PDF dated June 10, 2021. Confirm the download path and filename"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Perform a web search using the query 'monday.com S-1 filing June 10, 2021'. Navigate to the official monday.com investor relations page and go to the 'Financials & Filings' section. Look for the S-1 filing or any press releases related to the IPO. Extract and summarize the information about the C-suite positions at the time of the IPO, especially the roles of Shahar Kaminitz and Yael Fuchs."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Please navigate to the official Monday.com press release or a reputable news article from around June 10, 2021, and extract the names of the C-suite members at the time of the IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Please scroll down the 'About Us' page and locate the section that lists the current C-suite members of monday.com. Also, look for any information about the date of the company's IPO."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Use Google or another search engine to search for 'monday.com S-1 filing June 14, 2021'. Alternatively, navigate directly to the SEC Edgar database and search for monday.com's S-1 filing using the company name and IPO date (June 14, 2021)."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "navigate to official monday.com website to find 'About Us' or 'Leadership' section to identify current C-suite members and IPO date"}
+{"agent": "MagenticOneOrchestrator", "action": "retry", "state": "click on the link to the monday.com press release announcing their IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "review", "state": "the search results and extract the names and roles of the C-suite members of monday.com at the time of the IPO (June 14, 2021). Focus on the press release and articles from reliable sources like NoCamels and Meritech Capital"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "down further on the page and find the section that lists the C-suite members of monday.com at the time of the IPO. Extract the names and titles of these individuals"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "down further to find the press release dated June 14, 2021, related to the IPO and extract the names and roles of the C-suite members mentioned"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "the 'About Us' page to find the section that lists the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "scroll", "state": "through the press releases"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "'C-suite members of monday.com at the time of IPO' and provide the names and titles of the C-suite members during the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "'current C-suite members of monday.com' and 'C-suite members of monday.com at the time of IPO'"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "a cached version or a direct PDF link to the monday.com S-1 filing dated June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "a news article or SEC filing that provides details about the C-suite members of monday.com at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "and review the SEC filings related to monday.com's IPO on June 10, 2021, focusing on the S-1 filing and any other relevant documents to find the C-suite roles at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "for 'Investor Relations' or 'Press Releases' on the monday.com website"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "for and extract the names of the C-suite members listed in the S-1 filing dated June 8, 2021, from the PDF file 'c17b48e6-deb4-4726-bfc3-b293e5a42ce4.pdf'"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "historical information on each current C-suite member of monday.com to determine their roles at the time of the IPO on June 10, 2021. Focus on company press releases, news articles, and LinkedIn profiles"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "local files for documents related to monday.com's IPO, specifically looking for details about the C-suite members who held positions during June 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "press releases for the period around June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "press releases or financial news articles covering monday.com's IPO to determine the date of the IPO and the C-suite members at that time"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the S-1 filing of monday.com using the query 'monday.com S-1 filing PDF June 10, 2021 cached' and 'monday.com S-1 filing PDF June 10, 2021 direct link'"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the SEC filing for monday.com's IPO dated June 10, 2021, specifically the S-1 filing"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the date of monday.com's IPO and provide the exact date or a reliable source where we can find this information"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the monday.com website for the 'Leadership' or 'Team' section to list the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the search bar on the monday.com website to find the 'Leadership' or 'Executive Team' page"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the specific roles of Eran Zinman, Eliran Glazer, Casey George, Shiran Nawi, and Daniel Lereya at the time of monday.com's IPO on June 10, 2021. Focus on company press releases, news articles, and LinkedIn profiles"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the web for 'monday.com C-suite at IPO press release' or 'monday.com IPO announcement C-suite'"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the web for 'monday.com leadership' or 'monday.com C-suite' to find the current C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "select", "state": "the year 2021 and filter the filing type to show only S-1 forms. Then, locate and open the S-1 filing for monday.com's IPO on June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "terminate", "state": "Max rounds (30) reached"}
+{"agent": "MagenticOneOrchestrator", "action": "try", "state": "using Google instead of Bing to search for the press release. Use the search term 'monday.com IPO press release June 14, 2021 C-suite members'. If the page does not load within 10 seconds, use the `sleep(10)` function to wait and then try clicking again. If it still does not load, manually navigate to the press release section of the official monday.com website"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "Fact Sheet"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information and educated guesses"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "the fact sheet to reflect the latest information and plan the next steps to find the C-suite members at the time of the IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "use", "state": "the search functionality on the press releases page to search for 'IPO' or 'Initial Public Offering' and find the press release from June 14, 2021. If the search functionality is not available, continue scrolling down until you find the press release dated June 14, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "verify", "state": "the link to the IPO press release"}
+{"agent": "WebSurfer", "action": "click", "state": "'Filter filing type'"}
+{"agent": "WebSurfer", "action": "click", "state": "'Organize Work With monday.com | Enhance Team Collaboration'"}
+{"agent": "WebSurfer", "action": "click", "state": "'Resources'"}
+{"agent": "WebSurfer", "action": "click", "state": "'SEC Filings within the Financials & Filings section'"}
+{"agent": "WebSurfer", "action": "click", "state": "'Select year'"}
+{"agent": "WebSurfer", "action": "click", "state": "2021"}
+{"agent": "WebSurfer", "action": "click", "state": "About us"}
+{"agent": "WebSurfer", "action": "click", "state": "EDGAR Filing Documents for 0001628280-21-013318 - SEC.gov"}
+{"agent": "WebSurfer", "action": "click", "state": "Enterprise"}
+{"agent": "WebSurfer", "action": "click", "state": "F-1/A filing dated 6.08.2021"}
+{"agent": "WebSurfer", "action": "click", "state": "Investor relations"}
+{"agent": "WebSurfer", "action": "click", "state": "Jun 17, 2025 monday.com Appoints Harris Beber as Chief Marketing Officer"}
+{"agent": "WebSurfer", "action": "click", "state": "Leadership"}
+{"agent": "WebSurfer", "action": "click", "state": "Load more"}
+{"agent": "WebSurfer", "action": "click", "state": "Monday.com IPO | S-1 Breakdown - Meritech Capital"}
+{"agent": "WebSurfer", "action": "click", "state": "Monday.com Shares Jump At IPO, Minting A New Cloud Software \u2026"}
+{"agent": "WebSurfer", "action": "click", "state": "Nasdaq article titled 'Monday.com Files for IPO, Seeks to Raise $100 Million'"}
+{"agent": "WebSurfer", "action": "click", "state": "NoCamels"}
+{"agent": "WebSurfer", "action": "click", "state": "PDF Format Download (opens in new window)"}
+{"agent": "WebSurfer", "action": "click", "state": "Resources"}
+{"agent": "WebSurfer", "action": "click", "state": "Search Filings - SEC.gov"}
+{"agent": "WebSurfer", "action": "click", "state": "Select year"}
+{"agent": "WebSurfer", "action": "click", "state": "Skip to footer"}
+{"agent": "WebSurfer", "action": "click", "state": "Tab Navigation"}
+{"agent": "WebSurfer", "action": "click", "state": "View all press releases"}
+{"agent": "WebSurfer", "action": "click", "state": "What are the benefits of IPO?"}
+{"agent": "WebSurfer", "action": "click", "state": "control"}
+{"agent": "WebSurfer", "action": "click", "state": "history_back"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com - Corporate Governance - Management Team"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com - Financials & Filings - SEC Filings"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com Announces Closing of its Initial Public Offering and \u2026"}
+{"agent": "WebSurfer", "action": "error", "state": "Unknown tool 'set_timeout'"}
+{"agent": "WebSurfer", "action": "error", "state": "Web surfing error: Timeout 60000ms exceeded."}
+{"agent": "WebSurfer", "action": "error", "state": "Web surfing error: Traceback (most recent call last): ... openai.BadRequestError: Error code: 400 - {'object': 'error', 'message': 'This model's maximum context length is 32768 tokens. However, you requested 32819 tokens in the messages, Please reduce the length of the messages.', 'type': 'BadRequestError', 'param': None, 'code': 400}"}
+{"agent": "WebSurfer", "action": "navigate", "state": "https://www.forbes.com/sites/alexkonrad/2021/06/10/mondaycom-shares-jump-at-ipo-minting-a-new-billionaire-in-israel"}
+{"agent": "WebSurfer", "action": "navigate", "state": "https://www.monday.com"}
+{"agent": "WebSurfer", "action": "scroll", "state": "2021 S-1 filing"}
+{"agent": "WebSurfer", "action": "scroll", "state": "Management team section"}
+{"agent": "WebSurfer", "action": "scroll", "state": "one page down on the 'About Us' page"}
+{"agent": "WebSurfer", "action": "scroll", "state": "one page in the browser"}
+{"agent": "WebSurfer", "action": "search", "state": "monday.com IPO C-suite members June 14, 2021"}
+{"agent": "WebSurfer", "action": "type", "state": "'C-suite members of monday.com at the time of IPO official press release SEC filings' "}
+{"agent": "WebSurfer", "action": "type", "state": "'C-suite members of monday.com at the time of IPO' "}
+{"agent": "WebSurfer", "action": "type", "state": "'current C-suite members of monday.com and C-suite members of monday.com at the time of IPO' "}
+{"agent": "WebSurfer", "action": "type", "state": "'https://ir.monday.com/financials-and-filings/sec-filings/default.aspx' "}
+{"agent": "WebSurfer", "action": "type", "state": "2021"}
+{"agent": "WebSurfer", "action": "type", "state": "Eran Zinman, Eliran Glazer, Casey George, Shiran Nawi, Daniel Lereya roles at monday.com IPO June 10, 2021"}
+{"agent": "WebSurfer", "action": "type", "state": "Monday.com SEC filings "}
+{"agent": "WebSurfer", "action": "type", "state": "current C-suite members of monday.com"}
+{"agent": "WebSurfer", "action": "type", "state": "https://ir.monday.com"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.monday.com "}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.monday.com/about "}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.sec.gov"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.sec.gov/edgar/search/ "}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com C-suite members and IPO date"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com C-suite members and IPO date into browser search bar"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com C-suite members at IPO June 14, 2021 SEC filing"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com IPO C-suite members June 14, 2021"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com IPO C-suite members June 14, 2021 before:2021-07-01 after:2021-06-01"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com IPO C-suite members June 14, 2021 site:google.com intitle:\"press release\" OR intitle:\"news article\" before:2021-07-01 after:2021-06-01"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com IPO C-suite members SEC filing news article"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com IPO press release C-suite members"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com S-1 filing June 14, 2021"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com leadership team"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com official website"}

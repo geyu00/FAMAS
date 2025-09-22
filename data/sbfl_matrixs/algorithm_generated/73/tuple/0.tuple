@@ -1,0 +1,7 @@
+{"agent": "DoctorWhoScript_Expert", "action": "identify", "state": "INT. THE DRAIN - DAY"}
+{"agent": "DoctorWhoScript_Expert", "action": "suggest", "state": "update the Python code with a valid file path"}
+{"agent": "Validation_Expert", "action": "request", "state": "CSV file path containing the script data for validation"}
+{"agent": "Validation_Expert", "action": "request", "state": "provide file path for CSV or script file for verification"}
+{"agent": "Validation_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Validation_Expert", "action": "verify", "state": "confirm the accuracy of the first scene heading"}
+{"agent": "Validation_Expert", "action": "write script", "state": "extract the first scene heading from the script file"}

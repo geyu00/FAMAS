@@ -1,0 +1,7 @@
+{"agent": "Narration_Expert", "action": "assist", "state": "assist with further steps needed, such as analyzing the narration"}
+{"agent": "Narration_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Narration_Expert", "action": "watch video", "state": "identified the number 65 million mentioned immediately after dinosaurs are shown"}
+{"agent": "Verification_Expert", "action": "verify", "state": "confirm the accuracy of the number 65 million mentioned in the video"}
+{"agent": "Video_Analyst_Expert", "action": "execute script", "state": "search for the specific video using the YouTube Data API"}
+{"agent": "Video_Analyst_Expert", "action": "locate video", "state": "found the video titled Gollum's Journey: A 360\u00b0 Virtual Reality Experience"}
+{"agent": "Video_Analyst_Expert", "action": "shift strategy", "state": "perform a manual search on YouTube for the video"}

@@ -1,0 +1,5 @@
+{"agent": "ChessRules_Expert", "action": "request", "state": "provide the FEN string or description of the chess position"}
+{"agent": "Chess_Expert", "action": "request", "state": "provide the FEN string or description of the chess position"}
+{"agent": "Chess_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Chess_Expert", "action": "wait", "state": "for information about the current chess position"}
+{"agent": "Chess_Expert", "action": "write script", "state": "install the python-chess library for chess analysis"}

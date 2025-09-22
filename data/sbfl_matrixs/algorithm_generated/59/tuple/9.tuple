@@ -1,0 +1,4 @@
+{"agent": "DataExtraction_Expert", "action": "provide command", "state": "install Selenium again"}
+{"agent": "DataExtraction_Expert", "action": "run script", "state": "extract papers from NeurIPS 2022 Conference and save to CSV"}
+{"agent": "DataVerification_Expert", "action": "execute command", "state": "pip list to check installed packages"}
+{"agent": "DataVerification_Expert", "action": "verify", "state": "check installed Python packages to resolve Selenium issue"}

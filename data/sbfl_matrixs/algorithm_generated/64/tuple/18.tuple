@@ -1,0 +1,8 @@
+{"agent": "MilitaryHistory_Expert", "action": "suggest", "state": "conduct manual web search for information on the photograph and book author"}
+{"agent": "Verification_Expert", "action": "assist", "state": "wait for findings from manual search"}
+{"agent": "Verification_Expert", "action": "conclude", "state": "final confirmation and conclusion"}
+{"agent": "Verification_Expert", "action": "request confirmation", "state": "finalize information based on findings"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "verify", "state": "confirm author and military unit information"}
+{"agent": "Whitney_Collection_Expert", "action": "inform", "state": "will conduct manual web search with suggested queries"}
+{"agent": "Whitney_Collection_Expert", "action": "report", "state": "author John Williams joined United States Volunteers in 1813"}

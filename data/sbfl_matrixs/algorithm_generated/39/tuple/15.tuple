@@ -1,0 +1,5 @@
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "execute", "state": "verify the species and check USGS database for nonnative locations"}
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "summarize", "state": "confirm zip codes and finalize the task"}
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "modify extraction", "state": "target specific HTML elements for zip code extraction"}
+{"agent": "Scientific_Verification_Expert", "action": "revise code", "state": "improve zip code extraction from USGS page"}

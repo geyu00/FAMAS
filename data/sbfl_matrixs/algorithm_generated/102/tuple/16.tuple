@@ -1,0 +1,5 @@
+{"agent": "Filmography_Expert", "action": "compile list", "state": "feature films starring Isabelle Adjani"}
+{"agent": "Filmography_Expert", "action": "summarize", "state": "results of the code execution and mock dataset"}
+{"agent": "Filmography_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "IMDB_Ratings_Expert", "action": "write script", "state": "fetch IMDB ratings for the available films"}
+{"agent": "StreamingAvailability_Expert", "action": "provide script", "state": "check availability and ratings for the filtered films"}

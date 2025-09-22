@@ -1,0 +1,5 @@
+{"agent": "DataAnalysis_Expert", "action": "write script", "state": "read the Excel file and extract the necessary columns"}
+{"agent": "Financial_Expert", "action": "check columns", "state": "check the column names in the DataFrame"}
+{"agent": "Financial_Expert", "action": "modify script", "state": "display the first few rows of the DataFrame to understand data structure"}
+{"agent": "Financial_Expert", "action": "update script", "state": "set correct headers and extract necessary data"}
+{"agent": "Financial_Expert", "action": "verify", "state": "check the updated column names after reading the data"}

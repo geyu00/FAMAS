@@ -1,0 +1,17 @@
+{"agent": "Assistant", "action": "identify", "state": "the worst-rated series that meets all the criteria"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Becker"}
+{"agent": "MagenticOneOrchestrator", "action": "check", "state": "if 'Becker' is available on Amazon Prime Video (US)"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "To answer the user request, we need to compile a list of all TV series starring Ted Danson, verify the number of seasons, check the Rotten Tomatoes ratings, and note the availability on Amazon Prime Video (US)."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "number of seasons, Rotten Tomatoes ratings, and availability on Amazon Prime Video (US) for each series starring Ted Danson"}
+{"agent": "WebSurfer", "action": "click", "state": "Becker | Rotten Tomatoes"}
+{"agent": "WebSurfer", "action": "click", "state": "Benson | Rotten Tomatoes"}
+{"agent": "WebSurfer", "action": "click", "state": "Bored to Death"}
+{"agent": "WebSurfer", "action": "click", "state": "What shows has Ted Danson starred in?"}
+{"agent": "WebSurfer", "action": "report", "state": "The series \"CSI: Crime Scene Investigation\" ran for 15 seasons. It is available on Amazon Prime Video in the United States, where individual seasons can be streamed or purchased. According to Rotten Tomatoes, the overall series has a favorable rating, with Season 1 receiving a 92% score from critics. The show focuses on a team of forensic investigators in Las Vegas who work to solve complex and often gruesome crimes using scientific methods and evidence."}
+{"agent": "WebSurfer", "action": "scroll", "state": "one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "Becker Rotten Tomatoes"}
+{"agent": "WebSurfer", "action": "type", "state": "Benson TV series number of seasons Amazon Prime Video US Rotten Tomatoes ratings"}
+{"agent": "WebSurfer", "action": "type", "state": "Bored to Death series information"}
+{"agent": "WebSurfer", "action": "type", "state": "TV series starring Ted Danson number of seasons Rotten Tomatoes ratings"}
+{"agent": "WebSurfer", "action": "type", "state": "availability on Amazon Prime Video US and Rotten Tomatoes ratings for CSI: Crime Scene Investigation, Damages, Bored to Death, Ink, Mr. Mayor, A Man on the Inside Ted Danson "}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.rottentomatoes.com/tv/cheers"}

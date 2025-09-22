@@ -1,0 +1,5 @@
+{"agent": "Data_Extraction_Expert", "action": "summarize", "state": "0 High Energy Physics - Lattice articles from January 2020 on Arxiv have ps versions available"}
+{"agent": "Data_Extraction_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Data_Extraction_Expert", "action": "write script", "state": "extract the list of High Energy Physics - Lattice articles from Arxiv for January 2020"}
+{"agent": "Verification_Expert", "action": "inform", "state": "0 articles available in the High Energy Physics - Lattice category for January 2020 with ps versions"}
+{"agent": "Verification_Expert", "action": "write script", "state": "parse the extracted data and check which articles have ps versions"}

@@ -1,0 +1,4 @@
+{"agent": "DataAnalysis_Expert", "action": "write script", "state": "calculate the number of incorrect papers based on false positive rate"}
+{"agent": "PublicationData_Expert", "action": "conclude", "state": "50 papers would be incorrect regarding their claims of statistical significance"}
+{"agent": "PublicationData_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "VerificationExpert", "action": "verify", "state": "confirm the number of incorrect papers is 50"}

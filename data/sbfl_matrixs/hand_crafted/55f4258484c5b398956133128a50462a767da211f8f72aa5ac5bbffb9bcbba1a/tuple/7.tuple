@@ -1,0 +1,10 @@
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Ink"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Open the IMDb page for Ted Danson (https://www.imdb.com/name/nm0000345/) and scroll directly to the 'Filmography' section. Extract the names and years of all TV series starring Ted Danson."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Open the IMDb page for Ted Danson (https://www.imdb.com/name/nm0000345/) and verify that the page title contains \"Ted Danson\" and the URL is correct. Then, scroll directly to the 'Filmography' section. Extract the names and years of all TV series starring Ted Danson."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Perform a web search to compile a list of all series starring Ted Danson."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "We are working to address the following user request: What is the worst rated series (according to Rotten Tomatoes) with more than 1 season that Ted Danson has starred in and is available on Amazon Prime Video (US)?"}
+{"agent": "WebSurfer", "action": "click", "state": "Ted Danson - IMDb"}
+{"agent": "WebSurfer", "action": "scroll", "state": "one page in the browser"}
+{"agent": "WebSurfer", "action": "scroll", "state": "up one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "TV series starring Ted Danson"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.imdb.com/name/nm0000345/"}

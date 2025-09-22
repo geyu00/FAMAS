@@ -1,0 +1,6 @@
+{"index": 0, "agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "plan", "state": "Identify which individuals in the monday.com C-suite did not hold a C-suite position during the company's IPO"}
+{"index": 1, "agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "analyze", "state": "current and IPO-time C-suite members of monday.com"}
+{"index": 2, "agent": "Verification_Expert", "action": "verify", "state": "findings of the C-suite members during the IPO"}
+{"index": 3, "agent": "Verification_Expert", "action": "plan", "state": "gather verification data for C-suite members during the IPO"}
+{"index": 4, "agent": "Verification_Expert", "action": "verify", "state": "C-suite members during the IPO using IPO documentation and news articles"}
+{"index": 5, "agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}

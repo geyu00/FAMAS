@@ -1,0 +1,6 @@
+{"index": 0, "agent": "TizinGrammar_Expert", "action": "plan", "state": "Translate the sentence 'I like apples' to Tizin language"}
+{"index": 1, "agent": "Tizin_Translation_Expert", "action": "translate", "state": "I like apples to Maktay Zapple Pa"}
+{"index": 2, "agent": "Verification_Expert", "action": "verify", "state": "translation Maktay Zapple Pa is correct"}
+{"index": 3, "agent": "Computer_terminal", "action": "inform", "state": "no code to execute, await further instructions"}
+{"index": 4, "agent": "TizinGrammar_Expert", "action": "verify", "state": "Translation Maktay Zapple Pa is correct"}
+{"index": 5, "agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}

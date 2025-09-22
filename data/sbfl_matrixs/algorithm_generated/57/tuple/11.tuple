@@ -1,0 +1,6 @@
+{"agent": "DataManipulation_Expert", "action": "update script", "state": "Define PDF extraction function directly within the script using PyMuPDF"}
+{"agent": "TextExtraction_Expert", "action": "execute", "state": "Extract text from the identified PDF file"}
+{"agent": "TextExtraction_Expert", "action": "execute", "state": "list the files in the extraction directory"}
+{"agent": "TextExtraction_Expert", "action": "install package", "state": "Install PyMuPDF package"}
+{"agent": "TextExtraction_Expert", "action": "plan", "state": "Analyze the provided PDF file to determine how many applicants for the job are only missing a single qualification"}
+{"agent": "TextExtraction_Expert", "action": "run script", "state": "Extract the ZIP file to check its contents"}

@@ -1,0 +1,10 @@
+{"index": 0, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "plan", "state": "Research the species of fish from Finding Nemo and find nonnative locations before 2020"}
+{"index": 1, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "confirm", "state": "species and zip codes of nonnative locations"}
+{"index": 2, "agent": "Scientific_Verification_Expert", "action": "verify", "state": "species and zip codes from USGS database"}
+{"index": 3, "agent": "GIS_DataAnalysis_Expert", "action": "agree", "state": "species and zip codes based on USGS references"}
+{"index": 4, "agent": "Computer_terminal", "action": "inform", "state": "no code to execute, continue conversation"}
+{"index": 5, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "summarize", "state": "consensus on species and zip codes"}
+{"index": 6, "agent": "Computer_terminal", "action": "inform", "state": "no code to execute, continue conversation"}
+{"index": 7, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "summarize", "state": "consensus on species and zip codes"}
+{"index": 8, "agent": "Computer_terminal", "action": "inform", "state": "no code to execute, continue conversation"}
+{"index": 9, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "terminate", "state": "TERMINATE"}

@@ -1,0 +1,5 @@
+{"agent": "VideoContentAnalysis_Expert", "action": "guide", "state": "manually watch the video and find the timestamp of the question Isn't that hot"}
+{"agent": "VideoContentAnalysis_Expert", "action": "offer", "state": "assist with a different approach if needed"}
+{"agent": "VideoContentAnalysis_Expert", "action": "request", "state": "share the timestamp for the question Isn't that hot once found"}
+{"agent": "VideoContentAnalysis_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "VideoContentAnalysis_Expert", "action": "write script", "state": "download the video using yt-dlp and extract the audio for transcription"}

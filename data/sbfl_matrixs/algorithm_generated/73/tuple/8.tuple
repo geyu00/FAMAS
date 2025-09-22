@@ -1,0 +1,6 @@
+{"agent": "DoctorWhoScript_Expert", "action": "extract", "state": "first scene heading from the script"}
+{"agent": "Validation_Expert", "action": "await", "state": "further confirmations or additional insights from other experts"}
+{"agent": "Validation_Expert", "action": "clarify", "state": "need access to the script for accurate validation"}
+{"agent": "Validation_Expert", "action": "proceed", "state": "assume the setting INT. THE MAZE is accurate until further information is available"}
+{"agent": "Validation_Expert", "action": "request", "state": "CSV file path containing the script data for validation"}
+{"agent": "VideoAnalysis_Expert", "action": "confirm", "state": "agree with the provided and verified scene heading"}

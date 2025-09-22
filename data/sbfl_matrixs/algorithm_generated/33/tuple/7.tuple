@@ -1,0 +1,5 @@
+{"agent": "DOI_Expert", "action": "summarize", "state": "next steps for extracting the information from the downloaded PDF"}
+{"agent": "DOI_Expert", "action": "write script", "state": "access the book using the UCL Discovery link"}
+{"agent": "DOI_Expert", "action": "write script", "state": "access the book using the provided DOI and navigate to the specified page"}
+{"agent": "InformationExtraction_Expert", "action": "inform", "state": "provide the download link for the book and instructions to extract the endnote"}
+{"agent": "InformationExtraction_Expert", "action": "write script", "state": "attempt to access the book directly through the JSTOR link"}

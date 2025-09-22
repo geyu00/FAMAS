@@ -1,0 +1,5 @@
+{"agent": "Filmography_Expert", "action": "compile list", "state": "feature films starring Isabelle Adjani with runtimes"}
+{"agent": "IMDB_Ratings_Expert", "action": "check", "state": "availability of films on Vudu and prepare to fetch IMDB ratings"}
+{"agent": "IMDB_Ratings_Expert", "action": "correct", "state": "code to fetch IMDB ratings for available films"}
+{"agent": "StreamingAvailability_Expert", "action": "identify", "state": "highest rated film from available titles: The Story of Adele H. with IMDB rating 7.4"}
+{"agent": "StreamingAvailability_Expert", "action": "terminate", "state": "TERMINATE"}

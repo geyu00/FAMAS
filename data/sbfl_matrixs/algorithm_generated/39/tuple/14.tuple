@@ -1,0 +1,6 @@
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "summarize", "state": "Summarize findings and next steps for verifying zip codes of nonnative Amphiprion ocellaris"}
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "verify", "state": "double-check the presence of Amphiprion ocellaris in the USGS database"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "request", "state": "Guidance on parsing response data to extract zip codes for Amphiprion ocellaris"}
+{"agent": "GIS_DataAnalysis_Expert", "action": "summarize", "state": "Summarize current findings and request further verification or finalization"}
+{"agent": "Scientific_Verification_Expert", "action": "confirm", "state": "Potential locations for nonnative Amphiprion ocellaris are zip codes 33040 and 33037"}
+{"agent": "Scientific_Verification_Expert", "action": "provide script", "state": "Sample Python script to fetch data from USGS API for Amphiprion ocellaris"}

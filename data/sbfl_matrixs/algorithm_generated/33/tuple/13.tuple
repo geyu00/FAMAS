@@ -1,0 +1,5 @@
+{"agent": "DOI_Expert", "action": "inform", "state": "search for the book content did not yield the expected results"}
+{"agent": "DOI_Expert", "action": "write script", "state": "fetch the book content using the provided DOI"}
+{"agent": "DOI_Expert", "action": "write script", "state": "use the CrossRef API to retrieve the metadata for the provided DOI"}
+{"agent": "InformationExtraction_Expert", "action": "inform", "state": "request to access the DOI did not provide the expected content, returned an HTML page related to Crossref"}
+{"agent": "InformationExtraction_Expert", "action": "write script", "state": "use a search query to find the book content using the DOI"}

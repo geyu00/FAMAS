@@ -1,0 +1,4 @@
+{"agent": "ChessRules_Expert", "action": "check installation", "state": "verify if Tesseract is installed in the system"}
+{"agent": "ChessRules_Expert", "action": "install package", "state": "Install pytesseract package"}
+{"agent": "Chess_Expert", "action": "write script", "state": "extract and analyze the chess position from the image"}
+{"agent": "Chess_Expert", "action": "write script", "state": "rerun the extraction script to extract the chess position"}

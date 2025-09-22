@@ -1,0 +1,5 @@
+{"agent": "Accessibility_Expert", "action": "confirm", "state": "2nd Street Brew House is the closest and wheelchair accessible"}
+{"agent": "Accessibility_Expert", "action": "gather addresses", "state": "addresses and accessibility of the listed bars"}
+{"agent": "Accessibility_Expert", "action": "rerun script", "state": "calculate distances using geopy"}
+{"agent": "BingAPI_Expert", "action": "provide", "state": "install geopy module"}
+{"agent": "BingAPI_Expert", "action": "provide script", "state": "calculate distances using Haversine formula"}

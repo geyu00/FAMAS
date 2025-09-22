@@ -1,0 +1,6 @@
+{"agent": "Filmography_Expert", "action": "summarize", "state": "results of the task and final film selection"}
+{"agent": "Filmography_Expert", "action": "write script", "state": "get Isabelle Adjani's filmography using API"}
+{"agent": "IMDB_Ratings_Expert", "action": "compile list", "state": "manually compile list of Isabelle Adjani's films with runtimes"}
+{"agent": "IMDB_Ratings_Expert", "action": "fetch ratings", "state": "IMDB ratings for available films"}
+{"agent": "IMDB_Ratings_Expert", "action": "identify highest rated", "state": "The Story of Adele H. with IMDB rating 7.6"}
+{"agent": "StreamingAvailability_Expert", "action": "check availability", "state": "verify availability of films on Vudu"}

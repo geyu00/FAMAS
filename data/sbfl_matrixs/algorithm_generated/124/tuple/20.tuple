@@ -1,0 +1,5 @@
+{"agent": "Research_Expert", "action": "execute script", "state": "Perform web search to find Fubo IPO year"}
+{"agent": "Research_Expert", "action": "execute script", "state": "Perform web search to find joining years of Fubo's Management Team"}
+{"agent": "Research_Expert", "action": "gather", "state": "names and joining years of Fubo's Management Team"}
+{"agent": "Research_Expert", "action": "search", "state": "Find the IPO year of Fubo"}
+{"agent": "Validation_Expert", "action": "review", "state": "Extract joining years of Fubo's Management Team from search results"}

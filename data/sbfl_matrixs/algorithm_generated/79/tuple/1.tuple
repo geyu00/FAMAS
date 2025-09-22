@@ -1,0 +1,4 @@
+{"agent": "MenuAnalysis_Expert", "action": "locate", "state": "display the URLs for the menus on both dates"}
+{"agent": "WaybackMachine_Expert", "action": "install", "state": "install the waybackpy package"}
+{"agent": "WaybackMachine_Expert", "action": "write script", "state": "retrieve the archived dinner menus for Virtue restaurant & bar on specified dates using the Wayback Machine"}
+{"agent": "WaybackMachine_Expert", "action": "write script", "state": "use requests library to fetch archived menus from Wayback Machine"}

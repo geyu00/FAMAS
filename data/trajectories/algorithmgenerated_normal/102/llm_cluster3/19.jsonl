@@ -1,0 +1,5 @@
+{"index": 0, "agent": "Filmography_Expert", "action": "plan", "state": "Identify the highest rated Isabelle Adjani feature film that is less than 2 hours and available on Vudu"}
+{"index": 1, "agent": "Filmography_Expert", "action": "fetch", "state": "filmography of Isabelle Adjani"}
+{"index": 2, "agent": "IMDB_Ratings_Expert", "action": "verify", "state": "IMDB rating for The Story of Adele H."}
+{"index": 3, "agent": "StreamingAvailability_Expert", "action": "confirm", "state": "availability of Nosferatu the Vampyre on Vudu"}
+{"index": 4, "agent": "StreamingAvailability_Expert", "action": "terminate", "state": "TERMINATE"}

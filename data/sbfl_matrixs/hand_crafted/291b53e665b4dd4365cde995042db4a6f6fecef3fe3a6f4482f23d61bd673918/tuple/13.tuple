@@ -1,0 +1,17 @@
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to https://mart.ensembl.org/Delphinapterus_leucas/Info/Index and click on the 'Downloads' section"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the Ensembl archives page (https://www.ensembl.org/info/website/archives/index.html)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the FTP directory for the beluga whale (Delphinapterus leucas) in the Ensembl 102 archive (https://nov2020.archive.ensembl.org)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "to the section where GFF3 files can be downloaded"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "search for the most recent GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "https://ftp.ensembl.org/pub/current_gff3/delphinapterus_leucas/Delphinapterus_leucas.ASM228892v3.114.gff3.gz"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "for the Ensembl release that includes the GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "the most recent GFF3 file for beluga whales as of 20/10/2020"}
+{"agent": "WebSurfer", "action": "click", "state": "Downloads"}
+{"agent": "WebSurfer", "action": "click", "state": "Ensembl 102: Nov 2020"}
+{"agent": "WebSurfer", "action": "click", "state": "FTP site"}
+{"agent": "WebSurfer", "action": "click", "state": "GFF3"}
+{"agent": "WebSurfer", "action": "type", "state": "Ensembl release notes for beluga whale GFF3 file 20/10/2020 "}
+{"agent": "WebSurfer", "action": "type", "state": "https://archive.ensembl.org/"}
+{"agent": "WebSurfer", "action": "type", "state": "https://ftp.ensembl.org/pub/release-113/gff3/delphinapterus_leucas/ "}
+{"agent": "WebSurfer", "action": "type", "state": "https://mart.ensembl.org/Delphinapterus_leucas/Info/Index"}
+{"agent": "WebSurfer", "action": "type", "state": "most recent GFF3 file for beluga whales as of 20/10/2020 NCBI Ensembl"}

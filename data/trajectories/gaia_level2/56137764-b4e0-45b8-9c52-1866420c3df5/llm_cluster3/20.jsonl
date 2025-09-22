@@ -1,0 +1,4 @@
+{"index": 0, "agent": "user", "action": "ask", "state": "Which contributor to the version of OpenCV where support was added for the Mask-RCNN model has the same name as a former Chinese head of government when the names are transliterated to the Latin alphabet?"}
+{"index": 1, "agent": "MagenticOneOrchestrator", "action": "plan", "state": "the names of the contributors involved in the Mask-RCNN support from the OpenCV 4.0-alpha release notes and provide them. Then, cross-reference these names with the list of former Chinese heads of government you previously found"}
+{"index": 2, "agent": "MagenticOneOrchestrator", "action": "search", "state": "the specific version of OpenCV where support for the Mask-RCNN model was added"}
+{"index": 3, "agent": "WebSurfer", "action": "type", "state": "OpenCV version with Mask-RCNN support"}

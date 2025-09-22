@@ -1,0 +1,6 @@
+{"agent": "DataAnalysis_Expert", "action": "advise", "state": "check for ScienceDirect API for structured data access"}
+{"agent": "DataAnalysis_Expert", "action": "write script", "state": "scrape data from ScienceDirect"}
+{"agent": "Data_Collection_Expert", "action": "check", "state": "install required packages for web scraping"}
+{"agent": "Data_Collection_Expert", "action": "inform", "state": "ScienceDirect has an API requiring API key and authentication"}
+{"agent": "Data_Collection_Expert", "action": "modify script", "state": "add user-agent header to request"}
+{"agent": "Data_Collection_Expert", "action": "recommend", "state": "search for ScienceDirect API documentation"}

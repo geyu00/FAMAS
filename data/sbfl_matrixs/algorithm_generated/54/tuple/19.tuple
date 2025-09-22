@@ -1,0 +1,6 @@
+{"agent": "ClinicalTrials_Expert", "action": "report", "state": "perform a manual search and review data extraction method"}
+{"agent": "Clinical_Trial_Data_Analysis_Expert", "action": "locate", "state": "specific clinical trial on the NIH website and provide details"}
+{"agent": "Clinical_Trial_Data_Analysis_Expert", "action": "revise script", "state": "include related terms and broader search parameters to find relevant clinical trials"}
+{"agent": "Clinical_Trial_Data_Analysis_Expert", "action": "write script", "state": "search and extract data from the NIH Clinical Trials database"}
+{"agent": "Validation_Expert", "action": "modify script", "state": "check for potential issues and ensure it is structured to print more relevant data points for verification"}
+{"agent": "Validation_Expert", "action": "suggest", "state": "monitor for updates from the Clinical Trial Data Analysis Expert regarding the data extraction process"}

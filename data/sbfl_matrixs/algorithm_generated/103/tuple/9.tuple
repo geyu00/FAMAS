@@ -1,0 +1,5 @@
+{"agent": "DataVerification_Expert", "action": "execute", "state": "search for eateries near Harkness Memorial State Park using Bing Search API"}
+{"agent": "Eateries_Expert", "action": "execute", "state": "run the code to filter eateries"}
+{"agent": "Eateries_Expert", "action": "reinstall", "state": "install geopy package to calculate distances"}
+{"agent": "Location-Based_Services_Expert", "action": "adjust", "state": "Use geopy and requests libraries to find eateries near Harkness Memorial State Park"}
+{"agent": "Location-Based_Services_Expert", "action": "investigate", "state": "nearby eateries manually due to API issue"}

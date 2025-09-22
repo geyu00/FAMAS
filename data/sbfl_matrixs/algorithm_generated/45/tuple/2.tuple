@@ -1,0 +1,5 @@
+{"agent": "DataAnalysis_Expert", "action": "agree", "state": "support the conclusion of 50 incorrect papers"}
+{"agent": "PublicationData_Expert", "action": "conclude", "state": "TERMINATE"}
+{"agent": "PublicationData_Expert", "action": "write script", "state": "calculate the number of incorrect papers using assumed values"}
+{"agent": "VerificationExpert", "action": "conclude", "state": "TERMINATE"}
+{"agent": "VerificationExpert", "action": "verify", "state": "confirm the number of incorrect papers is 50"}

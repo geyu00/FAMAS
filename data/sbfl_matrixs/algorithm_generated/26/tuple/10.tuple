@@ -1,0 +1,7 @@
+{"agent": "DataVerification_Expert", "action": "clarify", "state": "Request additional information for the rate of change and offer to search for it"}
+{"agent": "DataVerification_Expert", "action": "search", "state": "historical data on women in computer science from Girls Who Code"}
+{"agent": "Statistics_Expert", "action": "clarify", "state": "Confirm the final percentage and request additional information for the rate of change"}
+{"agent": "Statistics_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Statistics_Expert", "action": "write script", "state": "Implement a function to calculate the number of years for different hypothetical decline rates"}
+{"agent": "WomenInComputerScienceHistory_Expert", "action": "propose", "state": "use a hypothetical rate of change for estimation based on historical trends"}
+{"agent": "WomenInComputerScienceHistory_Expert", "action": "summarize", "state": "Results of the hypothetical decline rates and their corresponding years"}

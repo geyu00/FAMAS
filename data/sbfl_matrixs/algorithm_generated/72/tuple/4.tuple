@@ -1,0 +1,5 @@
+{"agent": "API_Expert", "action": "check labels", "state": "fetch and check if the Regression label exists in the numpy/numpy repository"}
+{"agent": "API_Expert", "action": "inform", "state": "the Regression label does not exist in the numpy/numpy repository, cannot complete the task"}
+{"agent": "API_Expert", "action": "revise script", "state": "fetch all closed issues and filter by Regression label"}
+{"agent": "API_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "API_Expert", "action": "write script", "state": "fetch issues with the Regression label from the numpy/numpy repository"}

@@ -1,0 +1,7 @@
+{"agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "conclude", "state": "identify individuals who did not hold a C-suite position during the IPO"}
+{"agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "confirm", "state": "seek agreement to finalize the task"}
+{"agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "research", "state": "determine current and past C-suite members of monday.com"}
+{"agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "summarize", "state": "summarize the findings about C-suite members during the IPO"}
+{"agent": "CorporateHistory_IPOs_MondayCom_Expert", "action": "verify", "state": "confirm the accuracy of the findings with Verification_Expert"}
+{"agent": "Verification_Expert", "action": "agree", "state": "agree with the findings that Naama Levi and Aharon Horowitz did not hold C-suite positions during the IPO"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}

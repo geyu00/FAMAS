@@ -1,0 +1,5 @@
+{"agent": "Movie_Expert", "action": "filter", "state": "Daniel Craig movies based on duration and IMDB ratings"}
+{"agent": "Movie_Expert", "action": "summarize", "state": "highest rated movie is Casino Royale (2006) with IMDB rating 8.0"}
+{"agent": "Movie_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Movie_Expert", "action": "write script", "state": "check availability of Casino Royale (2006) on Netflix (US)"}
+{"agent": "StreamingService_Expert", "action": "verify", "state": "availability of Casino Royale (2006) on Netflix US"}

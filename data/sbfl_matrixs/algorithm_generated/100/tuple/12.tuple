@@ -1,0 +1,5 @@
+{"agent": "Movie_Expert", "action": "summarize", "state": "Layer Cake (2004) is the highest rated Daniel Craig movie available on Netflix (US)"}
+{"agent": "Movie_Expert", "action": "verify", "state": "IMDB rating for Layer Cake"}
+{"agent": "Movie_Expert", "action": "write script", "state": "fetch IMDB rating for Layer Cake"}
+{"agent": "StreamingService_Expert", "action": "agree", "state": "Layer Cake (2004) is the highest rated Daniel Craig movie under 150 minutes available on Netflix (US)"}
+{"agent": "StreamingService_Expert", "action": "revise", "state": "check Netflix availability using a direct query method"}

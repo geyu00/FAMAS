@@ -1,0 +1,4 @@
+{"agent": "DataAnalysis_Expert", "action": "request", "state": "confirm the actual weather data CSV file path for Seattle"}
+{"agent": "ProbabilityTheory_Expert", "action": "summarize", "state": "Results of the analysis and probability calculation"}
+{"agent": "ProbabilityTheory_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "generate mock dataset", "state": "create a mock dataset for weather conditions in Seattle for the first week of September from 2020 to 2023"}

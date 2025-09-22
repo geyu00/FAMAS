@@ -1,0 +1,6 @@
+{"agent": "DataManipulation_Expert", "action": "execute", "state": "List the files in the extraction directory"}
+{"agent": "DataManipulation_Expert", "action": "resolve", "state": "create a new function to handle PDF text extraction using PyPDF2"}
+{"agent": "TextExtraction_Execution", "action": "execute", "state": "extract text from the identified PDF file"}
+{"agent": "TextExtraction_Expert", "action": "execute", "state": "Extract the ZIP file containing the PDF"}
+{"agent": "TextExtraction_Expert", "action": "plan", "state": "Analyze the provided PDF file to determine how many applicants for the job are only missing a single qualification"}
+{"agent": "TextExtraction_Expert", "action": "write script", "state": "extract text from the PDF file using PyPDF2"}

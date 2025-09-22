@@ -1,0 +1,5 @@
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "finalize", "state": "provide the formatted result of nonnative zip codes"}
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "re-evaluate", "state": "modify code to correctly extract zip codes from USGS page"}
+{"agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "write script", "state": "query USGS API for nonnative locations of Amphiprion ocellaris"}
+{"agent": "Scientific_Verification_Expert", "action": "debug", "state": "add debugging output to inspect table contents"}
+{"agent": "Scientific_Verification_Expert", "action": "search", "state": "look for mentions of nonnative occurrences beyond tables"}

@@ -1,0 +1,198 @@
+{"agent": "Assistant", "action": "execute", "state": "web search for third-party shipping calculator for DHL"}
+{"agent": "Assistant", "action": "guide", "state": "calling FedEx customer service number at 1-800-463-3339"}
+{"agent": "Assistant", "action": "inform", "state": "Given that the FedEx website is still experiencing issues and the live chat is not available, the best course of action is to call the FedEx customer support number"}
+{"agent": "Assistant", "action": "inform", "state": "Since I am unable to make phone calls directly, I will guide you through the process of calling FedEx customer support and provide you with the script to use when speaking to the representative"}
+{"agent": "Assistant", "action": "navigate", "state": "DHL official website to use shipping calculator"}
+{"agent": "Assistant", "action": "plan", "state": "look up USPS shipping rates and resolve FedEx and DHL lookups"}
+{"agent": "Assistant", "action": "provide", "state": "navigate to the USPS customer service page and extract the phone number for customer support"}
+{"agent": "Assistant", "action": "type", "state": "open https://goshippo.com/"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "Final result of the cheapest shipping option"}
+{"agent": "MagenticOneOrchestrator", "action": "answer", "state": "{\"sender\": \"USPS\", \"price (usd)\": 12.5}"}
+{"agent": "MagenticOneOrchestrator", "action": "call", "state": "FedEx customer service number at 1-800-463-3339"}
+{"agent": "MagenticOneOrchestrator", "action": "click", "state": "'Get rates' to retrieve shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "enter", "state": "package dimensions and weight for a DVD"}
+{"agent": "MagenticOneOrchestrator", "action": "fill out", "state": "DHL shipping calculator with shipping details"}
+{"agent": "MagenticOneOrchestrator", "action": "fill out", "state": "USPS calculator with shipping details"}
+{"agent": "MagenticOneOrchestrator", "action": "input", "state": "details into the form"}
+{"agent": "MagenticOneOrchestrator", "action": "input", "state": "the following details into the FedEx rate calculator: Origin (Hartford, CT), Destination (Colombia), Item (DVD)"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Conduct web searches to find current shipping rates for FedEx, DHL, and USPS from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Enter '06101' as the ZIP Code you are mailing from. Select today's date and time for when you plan to mail the item. Choose 'DVD' as the item you are sending. Select 'Large Envelope' or the most appropriate option for a DVD. Fill in any additional required fields such as weight (typically around 0.5 pounds for a DVD) and value (e.g., $10). Click the 'Calculate' button to get the shipping cost. Record the shipping cost, including any additional fees."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Fill in the required fields on the USPS 'Calculate a Price' tool."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Fill out the USPS Retail Postage Price Calculator form with the required details"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Fill out the form on the USPS 'Calculate International Prices' page with the following details: Date: today, Time: now, Item Type: Nonnegotiable Document(s), Item Description: DVD, Quantity: 1, Weight: 0.1 pounds."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Go to USPS website, click on Calculate a Price, fill in details, and submit form to find rates for mailing a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to DHL and USPS websites and use their shipping calculators to find current shipping rates and additional fees for mailing a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the 'Calculate International Prices' tool on the USPS website and find the shipping cost for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the 'Calculate a Price' tool on the USPS website and fill in the required fields."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the 'Calculate a Price' tool on the USPS website and find the current rates for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the 'Calculate a Price' tool on the USPS website and find the shipping cost for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the DHL customer support page and fill out the contact form with the following details"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the FedEx and DHL rate calculators again after waiting for 5-10 minutes."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the Shippo shipping calculator and enter the standard weight and dimensions of a DVD."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the official DHL website and use their rate calculator to find the shipping costs for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the official FedEx and DHL websites and use their rate calculators to find the shipping costs for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the official USPS website and use their rate calculator to find the shipping costs for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Navigate to the official websites of DHL and USPS, and use their rate calculators to find the shipping costs for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please fill out the form on the USPS rate calculator with the following details:"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please fill out the remaining fields on the USPS rate calculator form with the following details:"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please input the following details into the USPS rate calculator:"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please manually type the following URLs into the browser and input the required details (origin: Hartford, CT; destination: Colombia; item: DVD) to get the shipping costs:"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the DHL and USPS rate calculators and input the details (origin: Hartford, CT; destination: Colombia; item: DVD) to find the shipping costs, including any additional fees."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the USPS rate calculator at https://postcalc.usps.com and input the details (origin: Hartford, CT; destination: Colombia; item: DVD) to get the shipping cost, including any additional fees."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the USPS rate calculator at https://postcalc.usps.com, click on 'International', and fill out the form with the following details:"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the USPS shipping calculator and input the following details"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Please navigate to the official websites of FedEx, DHL, and USPS, and use their rate calculators to find the cost of mailing a DVD from Hartford, Connecticut to Colombia. Record the shipping cost for each service, including any additional fees."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Search for third-party shipping cost estimators for FedEx and DHL using specific keywords."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'Calculate price based on Shape and Size'."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'Colombia' as the destination country, and then select 'Calculate price based on Shape and Size'."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'International' for the destination, choose 'Colombia', and then select 'Calculate price based on Shape and Size'."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'Letter' as the shape/size, then click 'Next' to proceed to the next step and submit the form to get the shipping cost for USPS."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'None of the following' for the letter properties and proceed to the next step to get the shipping cost for USPS."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select 'Package' as the shape, and enter the dimensions of the DVD."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Select Hartford, Connecticut, USA as origin city, type Colombia as destination city, enter weight and dimensions, and click Get rates"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Try navigating to the official FedEx and DHL websites again and use their rate calculators to find the shipping costs for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Use the Shippo shipping calculator to find the current rates for FedEx and DHL."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Use the USPS shipping calculator to find the current rates for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Visit the official USPS website and use their shipping calculator to find the current rates for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "Visit the official websites of DHL and USPS, and use their shipping calculators to find the current rates for mailing a DVD from Hartford, Connecticut to Colombia."}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to contact DHL customer service"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to contact FedEx customer service"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to navigate to DHL International Shipping Quote Tool"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for official rate calculators for FedEx, DHL, and USPS"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "click on 'Shipping Rates & Delivery Times', then click on 'Get a Quote' or 'Rate Calculator', verify URL, fill in form, note down shipping cost and fees"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "navigate to FedEx shipping calculator page and fill out form with specified details"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "navigate to the 'Calculate International Prices' section on the USPS website and use the rate calculator to find the current shipping rates for sending a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "navigate to the USPS customer service page and find the phone number for customer support"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "select United States and English from location and language options"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "try accessing the DHL rate calculator using a different browser or check if the DHL app can be used to get the shipping cost for mailing a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "DHL customer service page"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "FedEx customer service page"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "USPS 'Calculate a Price' tool to find shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "official USPS website"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "official websites of DHL and USPS to find shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "the DHL rate calculator and input the following details: Origin (100 Pearl St, Hartford, CT 06103), Destination (Calle 72 # 14-10, Bogot\u00e1, Colombia), Item (DVD, specify weight and dimensions if required)"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "the FedEx shipping rate calculator"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "third-party shipping rate calculator like Shippo to find shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Correctly fill out the USPS form and navigate to DHL and FedEx websites to get shipping rates"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Identify Shipping Rates"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "Use Shippo to get shipping rate estimates for FedEx, DHL, and USPS. Fill out the form with the following details: Sender location as Hartford, Connecticut, USA; recipient location as Colombia; package type as DVD; weight as 0.1 pounds; dimensions as 7.5 x 5.5 x 0.5 inches. Submit the form and note the total cost for each shipping option (FedEx, DHL, and USPS)."}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "address the user request for the cheapest shipping option to mail a DVD to Colombia from Hartford, Connecticut using FedEx, DHL, or USPS"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "navigate to the FedEx shipping calculator page and input the origin address as 'Hartford, Connecticut, USA', destination as 'Bogot\u00e1, Colombia', package type as 'Envelope', and weight as '0.5 lbs'"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "update the fact sheet and proceed with the next steps to gather the required information"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "Final answer"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "Final answer with sender and price for cheapest shipping option"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "final JSON object with cheapest shipping option"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "final answer"}
+{"agent": "MagenticOneOrchestrator", "action": "provide", "state": "final answer in JSON format"}
+{"agent": "MagenticOneOrchestrator", "action": "re-enter", "state": "details for shipping rates calculation"}
+{"agent": "MagenticOneOrchestrator", "action": "repeat", "state": "navigate to the official websites of DHL and USPS, and use their rate calculators to find the current shipping rates for sending a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Fill in the FedEx shipping calculator with the following details: Origin - Hartford, CT, USA; Destination - Colombia; Package Type - Small Box; Weight - 0.5 lbs; and select the service type as 'International Economy'. Then click 'Calculate Rates'"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Fill out the remaining details in the Shippo shipping calculator form: package type as DVD, weight as 0.1 pounds, dimensions as 7.5 x 5.5 x 0.5 inches. Then, submit the form and note the total cost for each shipping option (FedEx, DHL, and USPS)."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Fill out the remaining details in the Shippo shipping calculator form: recipient location as Colombia, package type as DVD, weight as 0.1 pounds, dimensions as 7.5 x 5.5 x 0.5 inches. Then, submit the form and note the total cost for each shipping option (FedEx, DHL, and USPS)."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Open the Shippo shipping calculator (https://goshippo.com/shipping-calculator) and enter the details for shipping a DVD from Hartford, Connecticut to Colombia using FedEx, DHL, and USPS. Note the total cost for each option."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Open the USPS Retail Postage Price Calculator page and verify the structure of the form, specifically the IDs or labels of the input fields. Take a screenshot of the form to ensure all required fields are visible and correctly labeled."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Perform a web search for 'current shipping rates for sending a DVD from Hartford Connecticut to Colombia using FedEx DHL and USPS including additional fees and surcharges' and look for third-party sources or customer reviews that might have the information."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Perform a web search for third-party shipping calculators or customer reviews that provide estimates for sending a DVD from Hartford, Connecticut to Colombia using FedEx, DHL, and USPS."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Please fill in the following details in the USPS Retail Postage Price Calculator: Destination Country: Colombia, ZIP Code Mailing From: 06101 (Hartford, CT), ZIP Code Mailing To: (Leave blank for international), Date you plan to mail the item: (Select today's date), Time you plan to mail the item: (Select a time), What are you sending: Select 'Package', Does the mailpiece require Ground Transportation: No, Calculate price based on Shape and Size: Enter the dimensions and weight of a standard DVD package (typically 7.5 x 5.5 x 0.5 inches and 0.1 pounds)."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Please use the 'Calculate a Price' tool on the USPS website to find the shipping rates for sending a DVD from Hartford, Connecticut to Colombia. Include any additional fees or surcharges."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Please visit the official websites of FedEx, DHL, and USPS and find the current shipping rates for sending a DVD from Hartford, Connecticut to Colombia. Also, check for any additional fees or surcharges that might apply, such as customs fees or handling charges."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Visit https://www.dhl.com/en/ship-and-track.html, and use the shipping calculator with the following details: origin 'Hartford, CT, USA', destination 'Colombia', package type 'Small Box', weight '0.5 lbs'. Click 'Calculate Rates' and provide the total cost"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Visit the official DHL website and find the current shipping rates for sending a DVD from Hartford, Connecticut to Colombia. Check for any additional fees or surcharges that might apply, such as customs fees or handling charges."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "Visit the official FedEx website and find the current shipping rates for sending a DVD from Hartford, Connecticut to Colombia. Check for any additional fees or surcharges that might apply, such as customs fees or handling charges."}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "current shipping rates for FedEx, DHL, and USPS for sending a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "fill out form with specified details and submit"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "fill out remaining fields and submit form"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "navigate to the Shippo website (https://goshippo.com) and use their shipping calculator to get the rates for mailing a DVD (0.1 lbs) from Hartford, Connecticut to Colombia. Fill out the form with the following details: Destination: Colombia, Sender's Location: Hartford, Connecticut, Item: DVD, Weight: 0.1 lbs, Value: $10. Repeat this process for FedEx, DHL, and USPS"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "search for valid postal code for Bogot\u00e1, Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "select Colombia as destination country/territory, enter 110111 as destination postal code, choose Small Box as package type, and enter 0.5 lbs as weight"}
+{"agent": "MagenticOneOrchestrator", "action": "request", "state": "select Hartford, Connecticut, USA from dropdown and fill out remaining fields"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "DHL and USPS shipping rates from Hartford, Connecticut to Colombia for DVD using different search engine or official websites"}
+{"agent": "MagenticOneOrchestrator", "action": "search", "state": "third-party shipping calculator for DHL"}
+{"agent": "MagenticOneOrchestrator", "action": "select", "state": "Package as the item type"}
+{"agent": "MagenticOneOrchestrator", "action": "type", "state": "'Hartford, CT' into 'From city' and 'Bogota, Colombia' into 'To city'"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "New Plan"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "Plan to gather shipping rates for FedEx, DHL, and USPS from Hartford, Connecticut to Colombia"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "Plan to retry FedEx and DHL websites after waiting 10 minutes and use alternative resources if needed."}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "Plan to use the USPS shipping calculator and third-party calculators for FedEx and DHL."}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "We are working to address the following user request"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet and plan for addressing the user request"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new insights and educated guesses"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "revised plan to gather shipping rates from DHL and USPS"}
+{"agent": "WebSurfer", "action": "click", "state": "'Get rates'"}
+{"agent": "WebSurfer", "action": "click", "state": "Calculate Shipping Rates | FedEx"}
+{"agent": "WebSurfer", "action": "click", "state": "Calculate a Price"}
+{"agent": "WebSurfer", "action": "click", "state": "Click-N-Ship\u00ae"}
+{"agent": "WebSurfer", "action": "click", "state": "DHL"}
+{"agent": "WebSurfer", "action": "click", "state": "DHL customer service contact information"}
+{"agent": "WebSurfer", "action": "click", "state": "Get a free International shipping quote online - DHL"}
+{"agent": "WebSurfer", "action": "click", "state": "Hartford, Connecticut, USA"}
+{"agent": "WebSurfer", "action": "click", "state": "International"}
+{"agent": "WebSurfer", "action": "click", "state": "Open Shipping Menu"}
+{"agent": "WebSurfer", "action": "click", "state": "Package"}
+{"agent": "WebSurfer", "action": "click", "state": "Powwows Stamp"}
+{"agent": "WebSurfer", "action": "click", "state": "Quick Tools"}
+{"agent": "WebSurfer", "action": "click", "state": "RATE & SHIP"}
+{"agent": "WebSurfer", "action": "click", "state": "Register / Sign In"}
+{"agent": "WebSurfer", "action": "click", "state": "Send"}
+{"agent": "WebSurfer", "action": "click", "state": "Shippo's shipping calculator"}
+{"agent": "WebSurfer", "action": "click", "state": "USPS - Retail Postage Price Calculator"}
+{"agent": "WebSurfer", "action": "click", "state": "browser back button"}
+{"agent": "WebSurfer", "action": "click", "state": "control"}
+{"agent": "WebSurfer", "action": "error", "state": "No such element"}
+{"agent": "WebSurfer", "action": "error", "state": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/"}
+{"agent": "WebSurfer", "action": "error", "state": "Web surfing error"}
+{"agent": "WebSurfer", "action": "error", "state": "Web surfing error: Page.evaluate: ReferenceError: MultimodalWebSurfer is not defined"}
+{"agent": "WebSurfer", "action": "error", "state": "Web surfing error: Traceback (most recent call last): File \"/usr/local/lib/python3.11/site-packages/autogen_ext/agents/web_surfer/_multimodal_web_surfer.py\", line 440, in on_messages_stream content = await self._generate_reply(cancellation_token=cancellation_token) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.11/site-packages/autogen_ext/agents/web_surfer/_multimodal_web_surfer.py\", line 623, in _generate_reply return await self._execute_tool(message, rects, tool_names, cancellation_token=cancellation_token) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.11/site-packages/autogen_ext/agents/web_surfer/_multimodal_web_surfer.py\", line 656, in _execute_tool reset_prior_metadata, reset_last_download = await self._playwright_controller.visit_page( ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.11/site-packages/autogen_ext/agents/web_surfer/playwright_controller.py\", line 233, in visit_page raise e_outer File \"/usr/local/lib/python3.11/site-packages/autogen_ext/agents/web_surfer/playwright_controller.py\", line 210, in visit_page await page.goto(url) File \"/usr/local/lib/python3.11/site-packages/playwright/async_api/_generated.py\", line 8975, in goto await self._impl_obj.goto( File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py\", line 556, in goto return await self._main_frame.goto(**locals_to_params(locals())) ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_frame.py\", line 146, in goto await self._channel.send( File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py\", line 69, in send return await self._connection.wrap_api_call( ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ File \"/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py\", line 558, in wrap_api_call raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None playwright._impl._errors.Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/en/express.html Call log: - navigating to \"https://www.dhl.com/en/express.html\", waiting until \"load\""}
+{"agent": "WebSurfer", "action": "guide", "state": "calling FedEx customer service number at 1-800-463-3339"}
+{"agent": "WebSurfer", "action": "inform", "state": "I'm unable to make phone calls directly"}
+{"agent": "WebSurfer", "action": "navigate", "state": "DHL customer service page"}
+{"agent": "WebSurfer", "action": "navigate", "state": "https://postcalc.usps.com"}
+{"agent": "WebSurfer", "action": "scroll", "state": "page"}
+{"agent": "WebSurfer", "action": "search", "state": "DHL USPS official websites rate calculators"}
+{"agent": "WebSurfer", "action": "search", "state": "DHL shipping rates from USA to Colombia"}
+{"agent": "WebSurfer", "action": "search", "state": "FedEx international shipping cost estimator DHL international shipping cost estimator recent shipping rate guides"}
+{"agent": "WebSurfer", "action": "search", "state": "FedEx rate calculator"}
+{"agent": "WebSurfer", "action": "search", "state": "current shipping rates for DHL and USPS for sending a DVD from Hartford, Connecticut to Colombia"}
+{"agent": "WebSurfer", "action": "search", "state": "https://goshippo.com/shipping-calculator"}
+{"agent": "WebSurfer", "action": "search", "state": "https://www.fedex.com"}
+{"agent": "WebSurfer", "action": "search", "state": "third-party shipping calculator for DHL"}
+{"agent": "WebSurfer", "action": "search", "state": "third-party shipping calculators for FedEx DHL USPS to Colombia from Hartford CT DVD"}
+{"agent": "WebSurfer", "action": "type", "state": "'7.5' into 'Height'"}
+{"agent": "WebSurfer", "action": "type", "state": "0.1"}
+{"agent": "WebSurfer", "action": "type", "state": "0.5 into 'Pounds'"}
+{"agent": "WebSurfer", "action": "type", "state": "06101"}
+{"agent": "WebSurfer", "action": "type", "state": "06101 into What's the Date you plan to mail the item?"}
+{"agent": "WebSurfer", "action": "type", "state": "10"}
+{"agent": "WebSurfer", "action": "type", "state": "100 Pearl St, Hartford, CT 06103 into 'From address, type in the full address your mailing from. Then use the drop down that appears to select the best address match, below. If you cannot use drop down.  Call 1 800 4 6 3 3 3 3 9.'"}
+{"agent": "WebSurfer", "action": "type", "state": "2023-10-05 into What's the Date you plan to mail the item?"}
+{"agent": "WebSurfer", "action": "type", "state": "Any time today into What's the Time you plan to mail the item?"}
+{"agent": "WebSurfer", "action": "type", "state": "Colombia"}
+{"agent": "WebSurfer", "action": "type", "state": "Colombia into What's the destination country?"}
+{"agent": "WebSurfer", "action": "type", "state": "DHL and USPS shipping rates from Hartford, Connecticut to Colombia for DVD"}
+{"agent": "WebSurfer", "action": "type", "state": "DHL customer support contact form"}
+{"agent": "WebSurfer", "action": "type", "state": "DHL rate calculator, USPS rate calculator"}
+{"agent": "WebSurfer", "action": "type", "state": "DVD"}
+{"agent": "WebSurfer", "action": "type", "state": "FedEx DHL USPS shipping rates DVD Hartford Connecticut to Colombia 0.1 lbs 45 grams"}
+{"agent": "WebSurfer", "action": "type", "state": "FedEx and DHL shipping rates for mailing a DVD (0.1 lbs) from Hartford, Connecticut to Colombia including additional fees and taxes"}
+{"agent": "WebSurfer", "action": "type", "state": "FedEx customer service phone number"}
+{"agent": "WebSurfer", "action": "type", "state": "FedEx shipping calculator"}
+{"agent": "WebSurfer", "action": "type", "state": "Hartford, CT into 'What's the Date you plan to mail the item?'"}
+{"agent": "WebSurfer", "action": "type", "state": "Hartford, Connecticut into * What's the value of the item being mailed?"}
+{"agent": "WebSurfer", "action": "type", "state": "Hartford, Connecticut, USA"}
+{"agent": "WebSurfer", "action": "type", "state": "Now into 'What's the Time you plan to mail the item?'"}
+{"agent": "WebSurfer", "action": "type", "state": "USPS International Shipping Calculator into search bar"}
+{"agent": "WebSurfer", "action": "type", "state": "USPS Retail Postage Price Calculator "}
+{"agent": "WebSurfer", "action": "type", "state": "USPS Retail Postage Price Calculator into search bar"}
+{"agent": "WebSurfer", "action": "type", "state": "USPS rate calculator "}
+{"agent": "WebSurfer", "action": "type", "state": "United States into 'Origin Country:'"}
+{"agent": "WebSurfer", "action": "type", "state": "https://calculatordoc.com/dhl-shipping-rates-calculator "}
+{"agent": "WebSurfer", "action": "type", "state": "https://goshippo.com/' "}
+{"agent": "WebSurfer", "action": "type", "state": "https://onlineshippingcalculator.com/' "}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.usps.com"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.usps.com/'"}
+{"agent": "WebSurfer", "action": "type", "state": "shipping rates FedEx DHL USPS DVD Hartford Connecticut to Colombia additional fees taxes special handling"}
+{"agent": "WebSurfer", "action": "type", "state": "third-party shipping rate calculator for FedEx DHL and USPS"}
+{"agent": "WebSurfer", "action": "type", "state": "typed 'https://www.usps.com/' "}
+{"agent": "WebSurfer", "action": "type", "state": "valid postal code for Bogot\u00e1, Colombia into browser search bar"}
+{"agent": "WebSurfer", "action": "wait", "state": "A short period of time before taking further action."}

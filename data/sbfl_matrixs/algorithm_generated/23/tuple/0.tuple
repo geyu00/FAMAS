@@ -1,0 +1,6 @@
+{"agent": "Art_Historian_Expert", "action": "write script", "state": "get the portrait info for accession number 29.100.5"}
+{"agent": "Church_Historian_Expert", "action": "research", "state": "consecrators and co-consecrators of Pope Clement VII"}
+{"agent": "Church_Historian_Expert", "action": "wait", "state": "for the Art Historian to identify the portrait with accession number 29.100.5"}
+{"agent": "DataVerification_Expert", "action": "search", "state": "information on Cardinal Francesco Alidosi manually"}
+{"agent": "DataVerification_Expert", "action": "verify", "state": "Cardinal Francesco Alidosi never became pope"}
+{"agent": "DataVerification_Expert", "action": "verify", "state": "confirm the findings and finalize the session"}

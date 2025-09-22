@@ -1,0 +1,7 @@
+{"agent": "Literature_Expert", "action": "compare", "state": "the quoted text with the in-line citation"}
+{"agent": "Literature_Expert", "action": "locate", "state": "quoted text on pages 45-46 of the article"}
+{"agent": "Literature_Expert", "action": "request", "state": "check the content for the exact wording of the quote"}
+{"agent": "Research_Expert", "action": "extract", "state": "the quoted text on pages 45-46 of the article"}
+{"agent": "Research_Expert", "action": "retrieve", "state": "original article from Project MUSE using the provided DOI"}
+{"agent": "VerificationExpert", "action": "agree", "state": "with the analysis and conclusion"}
+{"agent": "VerificationExpert", "action": "terminate", "state": "TERMINATE"}

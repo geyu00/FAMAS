@@ -1,0 +1,19 @@
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to click on the first link leading to a press release or news article about monday.com's IPO"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to click on the press release titled 'monday.com Announces Pricing of Initial Public Offering' dated June 10, 2021"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to extract names and titles of C-suite members mentioned in the press release"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to finalize the list of current C-suite members and compare with the IPO C-suite members"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for 'monday.com IPO C-suite members' on a reliable search engine"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for 'monday.com leadership' on a reliable search engine"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to visit https://www.monday.com/about and navigate to the 'Leadership' section"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "team to address the user request"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information and educated guesses"}
+{"agent": "WebSurfer", "action": "click", "state": "About us"}
+{"agent": "WebSurfer", "action": "click", "state": "Leadership"}
+{"agent": "WebSurfer", "action": "click", "state": "View all press releases"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com - Corporate Governance - Management Team"}
+{"agent": "WebSurfer", "action": "click", "state": "monday.com Announces Closing of its Initial Public Offering and \u2026"}
+{"agent": "WebSurfer", "action": "scroll", "state": "one page in the browser"}
+{"agent": "WebSurfer", "action": "type", "state": "https://www.monday.com/about "}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com C-suite members and IPO date"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com C-suite members and IPO date into browser search bar"}
+{"agent": "WebSurfer", "action": "type", "state": "monday.com leadership team"}

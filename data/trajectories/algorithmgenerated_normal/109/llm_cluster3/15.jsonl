@@ -1,0 +1,5 @@
+{"index": 0, "agent": "Geography_Expert", "action": "plan", "state": "Verify the accuracy of the information provided about supermarkets within 2 blocks of Lincoln Park in Chicago that offer ready-to-eat salads for under $15"}
+{"index": 1, "agent": "Grocery_Expert", "action": "verify", "state": "classification of Menards and availability of ready-to-eat salads at Whole Foods Market and Costco"}
+{"index": 2, "agent": "Verification_Expert", "action": "agree", "state": "with the assessment and verification of the supermarkets"}
+{"index": 3, "agent": "Computer_terminal", "action": "inform", "state": "no code from the last 1 message for me to execute"}
+{"index": 4, "agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}

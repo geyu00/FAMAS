@@ -1,0 +1,6 @@
+{"agent": "DOI_Expert", "action": "execute", "state": "Access the book using the provided DOI"}
+{"agent": "DOI_Expert", "action": "inform", "state": "search for the book content did not yield the expected results"}
+{"agent": "DOI_Expert", "action": "plan", "state": "Check the Crossref API for the book details"}
+{"agent": "DOI_Expert", "action": "request", "state": "Provide recommendation or direction on how to proceed"}
+{"agent": "InformationExtraction_Expert", "action": "plan", "state": "Use the JSTOR URL to access the book content"}
+{"agent": "InformationExtraction_Expert", "action": "plan", "state": "use Google Scholar or other databases to find the book"}

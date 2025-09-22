@@ -1,0 +1,5 @@
+{"agent": "Fitness_Expert", "action": "manually identify", "state": "gyms near Tompkins Square Park using Google Maps and Yelp"}
+{"agent": "Fitness_Expert", "action": "plan", "state": "check class schedules for identified gyms"}
+{"agent": "Local_Knowledge_Expert", "action": "review schedules", "state": "check class schedules for identified gyms and summarize findings"}
+{"agent": "Local_Knowledge_Expert", "action": "write script", "state": "use mapping API to find gyms within 200 meters of Tompkins Square Park"}
+{"agent": "Verification_Expert", "action": "terminate", "state": "TERMINATE"}

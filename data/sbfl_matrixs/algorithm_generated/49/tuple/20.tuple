@@ -1,0 +1,4 @@
+{"agent": "DataExtraction_Expert", "action": "write script", "state": "Match gifts to recipients based on their profiles and identify the non-giver"}
+{"agent": "DataExtraction_Expert", "action": "write script", "state": "extract data from the document using python-docx"}
+{"agent": "Validation_Expert", "action": "execute", "state": "Extract the text from the provided document using OCR"}
+{"agent": "Validation_Expert", "action": "write script", "state": "Structure the extracted data in a list of dictionaries for each employee"}

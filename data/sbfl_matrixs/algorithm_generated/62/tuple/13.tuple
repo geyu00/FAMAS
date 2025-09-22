@@ -1,0 +1,5 @@
+{"agent": "Literature_Expert", "action": "summarize", "state": "recap and validate the findings, confirm the citation integrity"}
+{"agent": "Literature_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Literature_Expert", "action": "write script", "state": "generate Python code to simulate fetching the article content"}
+{"agent": "Research_Expert", "action": "outline steps", "state": "retrieve the article, locate the quoted text, and compare it with the in-line citation"}
+{"agent": "VerificationExpert", "action": "compare", "state": "quoted text matches the in-line citation"}

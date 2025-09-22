@@ -1,0 +1,5 @@
+{"agent": "DOI_Expert", "action": "access", "state": "book using the provided DOI"}
+{"agent": "DOI_Expert", "action": "attempt", "state": "to extract text from page 11 using pdfplumber"}
+{"agent": "DOI_Expert", "action": "check", "state": "if PDF extraction is possible using the DOI"}
+{"agent": "InformationExtraction_Expert", "action": "install", "state": "PyPDF2 library"}
+{"agent": "InformationExtraction_Expert", "action": "write script", "state": "use PyPDF2 to extract text from PDF"}

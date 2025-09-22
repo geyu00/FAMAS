@@ -1,0 +1,5 @@
+{"agent": "Food_Expert", "action": "summarize", "state": "list of verified restaurants with vegan mains under $15"}
+{"agent": "Food_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Vegan_Food_Expert", "action": "verify", "state": "menus for vegan main dishes under $15"}
+{"agent": "Verification_Expert", "action": "prepare", "state": "prepare verification code to check restaurant distances"}
+{"agent": "Verification_Expert", "action": "verify", "state": "data against the framework criteria"}

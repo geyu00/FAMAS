@@ -1,0 +1,4 @@
+{"agent": "MarineBiology_Expert", "action": "write script", "state": "access Wikipedia page for Greenland and extract population data"}
+{"agent": "Statistics_Expert", "action": "guide", "state": "Check Wikipedia for Greenland's 2020 population, confirm with alternative sources"}
+{"agent": "Statistics_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Verification_Expert", "action": "revise script", "state": "handle infobox and population row not found errors"}

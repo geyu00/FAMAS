@@ -1,0 +1,7 @@
+{"agent": "Art_Historian_Expert", "action": "summarize", "state": "current findings and next steps"}
+{"agent": "Art_Historian_Expert", "action": "verify", "state": "manually identify the consecrators and co-consecrators of Bishop Francis de Sales"}
+{"agent": "Church_Historian_Expert", "action": "research", "state": "consecrators and co-consecrators of Pope Clement VII"}
+{"agent": "DataVerification_Expert", "action": "agree", "state": "findings of the Church Historian Expert"}
+{"agent": "DataVerification_Expert", "action": "search", "state": "gather information about the consecrators and co-consecrators of Bishop Francis de Sales"}
+{"agent": "DataVerification_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "DataVerification_Expert", "action": "verify", "state": "confirm the findings and finalize the session"}

@@ -1,0 +1,6 @@
+{"agent": "ModelEvaluation_Interpretation_Expert", "action": "provide", "state": "Provide arXiv IDs or titles for the papers"}
+{"agent": "ModelEvaluation_Interpretation_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Physics_Expert", "action": "plan", "state": "Locate and analyze the relevant arXiv.org papers for the task"}
+{"agent": "Physics_Expert", "action": "request", "state": "assistance in locating the arXiv articles"}
+{"agent": "Verification_Expert", "action": "assist", "state": "Verify the findings once the label words are extracted"}
+{"agent": "Verification_Expert", "action": "wait", "state": "Wait for Physics_Expert to extract label words"}

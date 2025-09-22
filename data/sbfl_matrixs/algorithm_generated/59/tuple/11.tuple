@@ -1,0 +1,5 @@
+{"agent": "DataAnalysis_Expert", "action": "execute command", "state": "pip install selenium"}
+{"agent": "DataAnalysis_Expert", "action": "provide command", "state": "install selenium using pip"}
+{"agent": "DataExtraction_Expert", "action": "re-run script", "state": "execute the updated extraction script"}
+{"agent": "DataExtraction_Expert", "action": "update script", "state": "include proper WebDriver initialization for data extraction"}
+{"agent": "DataVerification_Expert", "action": "provide command", "state": "pip install --upgrade --force-reinstall selenium"}

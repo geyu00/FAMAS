@@ -1,0 +1,7 @@
+{"agent": "Filmography_Expert", "action": "fetch", "state": "filmography of Isabelle Adjani"}
+{"agent": "Filmography_Expert", "action": "filter", "state": "films less than 120 minutes and provide list"}
+{"agent": "IMDB_Ratings_Expert", "action": "agree", "state": "filtered list from Filmography_Expert"}
+{"agent": "IMDB_Ratings_Expert", "action": "assist", "state": "with next steps after filmography is gathered"}
+{"agent": "StreamingAvailability_Expert", "action": "check", "state": "availability on Vudu for filtered films"}
+{"agent": "StreamingAvailability_Expert", "action": "execute", "state": "script to check availability on Vudu"}
+{"agent": "StreamingAvailability_Expert", "action": "wait", "state": "for filmography list to proceed with filtering and availability check"}

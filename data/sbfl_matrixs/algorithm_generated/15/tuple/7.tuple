@@ -1,0 +1,5 @@
+{"agent": "Boggle_Board_Expert", "action": "summarize", "state": "longest word generated from the Boggle board is FOIRL and is valid"}
+{"agent": "Boggle_Board_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Boggle_Board_Expert", "action": "write script", "state": "implement the steps to solve the Boggle board puzzle"}
+{"agent": "Dictionary_Expert", "action": "re-run verification", "state": "load dictionary and check if FOIRL is a valid word"}
+{"agent": "Verification_Expert", "action": "verify", "state": "check if FOIRL is a valid word in the dictionary"}

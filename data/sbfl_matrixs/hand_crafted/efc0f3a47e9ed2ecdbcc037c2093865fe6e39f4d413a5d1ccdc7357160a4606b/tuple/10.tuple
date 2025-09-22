@@ -1,0 +1,17 @@
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to complete human verification step"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to navigate to Fidelity section on Morningstar and find list of Fidelity International Emerging Markets Equity Mutual Funds with $0 transaction fees"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to navigate to Morningstar and complete human verification step"}
+{"agent": "MagenticOneOrchestrator", "action": "instruct", "state": "WebSurfer to search for Fidelity International Emerging Markets Equity Mutual Funds with $0 transaction fees"}
+{"agent": "MagenticOneOrchestrator", "action": "navigate", "state": "Fidelity website or financial data provider to extract performance data for identified funds"}
+{"agent": "MagenticOneOrchestrator", "action": "plan", "state": "team to address user request"}
+{"agent": "MagenticOneOrchestrator", "action": "update", "state": "fact sheet with new information and revised educated guesses"}
+{"agent": "MagenticOneOrchestrator", "action": "wait", "state": "for data collection and calculation to be completed"}
+{"agent": "WebSurfer", "action": "click", "state": "Begin"}
+{"agent": "WebSurfer", "action": "click", "state": "Confirm"}
+{"agent": "WebSurfer", "action": "click", "state": "FEMKX - Fidelity \u00ae Emerging Markets Fund | Fidelity Investments"}
+{"agent": "WebSurfer", "action": "click", "state": "Markets"}
+{"agent": "WebSurfer", "action": "click", "state": "Search Field"}
+{"agent": "WebSurfer", "action": "click", "state": "control"}
+{"agent": "WebSurfer", "action": "navigate", "state": "to Morningstar website"}
+{"agent": "WebSurfer", "action": "search", "state": "Fidelity International Emerging Markets Equity mutual funds with $0 transaction fees"}
+{"agent": "WebSurfer", "action": "search", "state": "Fidelity international emerging markets equity mutual funds"}

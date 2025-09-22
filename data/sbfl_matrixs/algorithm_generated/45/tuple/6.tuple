@@ -1,0 +1,4 @@
+{"agent": "PublicationData_Expert", "action": "confirm", "state": "finalize the result as 50 incorrect papers based on the 1000 articles assumption"}
+{"agent": "PublicationData_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "PublicationData_Expert", "action": "write script", "state": "calculate the number of incorrect papers using the false positive rate"}
+{"agent": "VerificationExpert", "action": "verify", "state": "confirm the number of incorrect papers based on the calculation"}

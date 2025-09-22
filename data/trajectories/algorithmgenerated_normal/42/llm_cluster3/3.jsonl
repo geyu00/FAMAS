@@ -1,0 +1,5 @@
+{"index": 0, "agent": "DemographicData_Expert", "action": "plan", "state": "Retrieve the gender split data from the 2011 Bulgarian census regarding tertiary education"}
+{"index": 1, "agent": "DemographicData_Expert", "action": "calculate", "state": "difference between the number of men and women with tertiary education"}
+{"index": 2, "agent": "Verification_Expert", "action": "verify", "state": "the calculation provided by the DemographicData_Expert"}
+{"index": 3, "agent": "DemographicData_Expert", "action": "agree", "state": "with the findings and terminate the task"}
+{"index": 4, "agent": "DemographicData_Expert", "action": "terminate", "state": "TERMINATE"}

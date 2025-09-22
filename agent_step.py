@@ -3,10 +3,10 @@ from typing import Optional
 
 
 class AgentStep:
-    def __init__(self, agent: str, action: str, label: str):
+    def __init__(self, agent: str, action: str, state: str):
         self.agent = agent
         self.action = action
-        self.label = label
+        self.state = state
 
     # def __init__(self, agent: str, action: str):
     #     self.agent = agent
@@ -19,11 +19,11 @@ class AgentStep:
         return (
             self.agent == other.agent and
             self.action == other.action and
-            self.label == other.label
+            self.state == other.state
         )
 
     def __hash__(self):
-        return hash((self.agent, self.action, self.label))
+        return hash((self.agent, self.action, self.state))
 
     # def __repr__(self):
     #     return f"{self.agent}###{self.action}###{self.label}"
@@ -32,7 +32,7 @@ class AgentStep:
         return json.dumps({
             "agent": self.agent,
             "action": self.action,
-            "label": self.label
+            "state": self.state
         })
 
     @staticmethod
@@ -47,7 +47,7 @@ class AgentStep:
         try:
             obj = json.loads(line)
             if not is_hierarchical:
-                return AgentStep(obj["agent"], obj["action"], obj["label"])
+                return AgentStep(obj["agent"], obj["action"], obj["state"])
             return AgentStep(obj["agent"], obj["action"], "")
         except Exception:
             return None

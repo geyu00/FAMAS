@@ -1,0 +1,7 @@
+{"index": 0, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "plan", "state": "Research the species of fish from Finding Nemo and find nonnative locations before 2020"}
+{"index": 1, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "write script", "state": "query USGS API for nonnative locations of Amphiprion ocellaris"}
+{"index": 2, "agent": "Computer_terminal", "action": "inform", "state": "execution succeeded, no output provided from the script"}
+{"index": 3, "agent": "Scientific_Verification_Expert", "action": "adjust approach", "state": "manually check USGS links for nonnative locations of Amphiprion ocellaris"}
+{"index": 4, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "confirm", "state": "confirm the zip codes for Amphiprion ocellaris as a nonnative species"}
+{"index": 5, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "summarize", "state": "confirm zip codes and finalize the task"}
+{"index": 6, "agent": "AquaticEcosystems_InvasiveSpecies_Expert", "action": "terminate", "state": "TERMINATE"}

@@ -1,0 +1,5 @@
+{"agent": "Movie_Expert", "action": "gather", "state": "IMDB ratings and durations for both movies"}
+{"agent": "Movie_Expert", "action": "summarize", "state": "highest rated Daniel Craig movie available on Netflix (US)"}
+{"agent": "Movie_Expert", "action": "terminate", "state": "TERMINATE"}
+{"agent": "Movie_Expert", "action": "update script", "state": "check availability of both movies using an inline search function"}
+{"agent": "StreamingService_Expert", "action": "verify", "state": "availability of Daniel Craig movies on Netflix (US)"}

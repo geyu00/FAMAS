@@ -1,0 +1,4 @@
+{"agent": "DataExtraction_Expert", "action": "execute", "state": "run the data extraction code again"}
+{"agent": "DataExtraction_Expert", "action": "write script", "state": "use python-docx to extract employee data from the document"}
+{"agent": "Validation_Expert", "action": "provide command", "state": "install python-docx library"}
+{"agent": "Validation_Expert", "action": "suggest", "state": "create a new virtual environment and install python-docx there"}
